@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Maximweller.com</title>
+	
+	<meta name="description" content="Max Well, front-end and back-end developer freelancer.">
+	<meta name="keywords" content="portfolio, front end, back end developer, html5, css3, js, jquery, php, responsive, web developer">
+    <meta name="author" content="Maxim Weller">
+    
+    <!-- IE compatibility -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- Favicons Links -->
+    <link type="image/png" rel="shortcut icon" href="../assets/img/favicon/favicon.png">
+    
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+    
+    <!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+    
+    <!-- Start Loading Section -->
+	<div class="loading-wrapper">
+	    <span class="loader">
+		    <!--<span class="loader2"></span>-->
+		</span>
+	</div>
+	<!-- End Loading Section -->
+	
+	<section class="sadcat">
+        <img src="../assets/img/sadcat.jpg" alt="Sad cat">
+        <br><br>
+	    <span>Sorry, we are redesigning the games site. <br> Thank you for being patient.</span>
+        <br><br><br>
+        <div><a class="button" href="../index.html"><i class="fa fa-chevron-left" aria-hidden="true"></i> Back</a></div>
+    </section>
+    <style>
+        .sadcat {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #f1f2f6;
+        }
+        
+        .sadcat img {
+            border-radius: 1%;
+            width: 550px;
+            opacity: .9;
+        }
+        
+        .sadcat span {
+            font-family: 'Roboto', sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+        }
+    
+    </style>
+	
+		
+			
+					
+	
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<link media="screen" rel="stylesheet" href="../assets/css/media.css">
+	<link rel="stylesheet" href="../assets/libs/bootstrap/bootstrap-grid.css">
+	<script src="../assets/js/common.js"></script>
+	<script src="../assets/libs/jquery/jquery-3.2.1.min.js"></script>
+	<script>
+        $(window).on('load', function () {
+           $preloader = $('.loading-wrapper'),
+               $loader = $preloader.find('.loader');
+            $loader.fadeOut();
+            $preloader.delay(350).fadeOut('slow');
+        });
+    </script>
+
+</body>
+
+</html>
