@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Maxplanck.io, front-end and back-end developer.</title>
+	
+	<meta name="description" content="Max Planck, front-end and back-end developer.">
+	<meta name="keywords" content="portfolio, front-end, back-end developer, html5, css3, bootstrap, js, jquery, php, responsive, web developer">
+    <meta name="author" content="Max Planck">
+    
+    <!-- IE compatibility -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- Favicon Links -->
+    <link type="image/png" rel="shortcut icon" href="../assets/img/logo/favicon/favicon.png">
+    
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+    
+    <!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+    <!-- Start Loader -->
+	<div class="loader-area">
+		<i class="fa fa-plus loader" aria-hidden="true"></i>
+	</div>
+    <!-- End Loader -->
+    
+    <!-- Start Section -->
+    <div class="admin-container">
+        <form>
+            <img src="../assets/img/header/Max-Planck.jpg" alt="Max Planck">
+            <div class="admin-input">
+                <input type="text" name="username" placeholder="Login">
+                <input type="password" name="password" placeholder="Password">
+                <input class="admin-submit" type="submit" name="submit" value="Sign in"><br>
+                <input class="admin-submit" type="reset" name="reset" value="Clean">
+            </div>
+        </form>
+                
+                
+    </div>
+    <!-- End Section -->
+	
+	<link rel="stylesheet" href="../assets/css/admin.css">
+	<script src="../assets/js/common.js"></script>
+	<script src="../assets/libs/jquery/jquery-3.2.1.min.js"></script>
+    <script>
+        $(window).on('load', function () {
+            $preloader = $('.loader-area'),
+                $loader = $preloader.find('.loader');
+            $loader.fadeOut();
+            $preloader.delay(350).fadeOut('slow');
+        });
+    </script>
+</body>
+
+</html>
