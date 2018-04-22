@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="utf-8">
     <title>Maximweller.github.io</title>
 	
-	<meta name="description" content="Максим Веллер, front-end and back-end разработчик, фрилансер.">
-	<meta name="keywords" content="portfolio, front end, back end developer, html5, css3, js, jquery, react, responsive, web developer">
-    <meta name="author" content="Максим Веллер">
+	<meta name="description" content="Max Well, front-end and back-end developer freelancer.">
+	<meta name="keywords" content="portfolio, front end, back end developer, html5, css3, js, jquery,  responsive, web developer">
+    <meta name="author" content="Maxim Weller">
     
     <!-- IE compatibility -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,38 +38,68 @@
 	</div>
 	<!-- End Loading Section -->
 	
-	<section class="sadcat">
-        <img src="../../assets/img/sadcat.jpg" alt="Sad cat">
-        <br><br>
-	    <span>Извините, мы реконструируем сайт. <br> Спасибо за ваше терпение.</span>
-        <br><br><br>
-        <div><a class="button" href="../index.html"><i class="fa fa-chevron-left" aria-hidden="true"></i> Back</a></div>
-    </section>
-    <style>
-        .sadcat {
-            width: 100%;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            background-color: #f1f2f6;
-        }
-        
-        .sadcat img {
-            border-radius: 1%;
-            width: 550px;
-            opacity: .9;
-        }
-        
-        .sadcat span {
-            font-family: 'Roboto', sans-serif;
-            font-size: 25px;
-            font-weight: bold;
-        }
-    
-    </style>
+	<header>
+        <div class="header-wrapper">
+            <div class="header-logo-wr"><a href="../index.html"><img class="header-logo"     src="../../assets/img/logo/MWelllogo.png" alt="Logo"></a></div>
+            <div class="header-blog"><a href="../blog/index.html">Блог</a></div>
+            <div class="header-lang">
+                <a href="../../games/index.html">АНГ.</a>
+                <a href="#">РУ.</a>
+            </div>
+            <style>
+                .header-lang a:nth-child(1) {color: #BCBCBC;}
+            </style>
+        </div>
+    </header>
 	
+    <section>
+        <div class="wrap">
+            <div class="save">
+                <img src="Save_the_planet/save-the-planet-img.jpg" alt="img">
+                <a href="Save_the_planet/index.html"><span>Сохрани планету</span></a>
+                <span>Нажимай на квадратики, чтобы посадить дерево. Фабрики и заводы могут погубить планету! Защити её!</span>
+            </div>
+                                    
+        </div>
+   
+   
+
+    </section>
+	
+	<style>
+        .header-blog {
+            margin-right: 40px!important;
+        }
+        .wrap {
+            margin-top: 80px;
+            height: 80vh;
+            width: 92%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .save {
+            width: 400px;
+            height: 300px;
+        }
+        .save img {
+            display: block;
+        }
+        .save a {
+            display: block;
+            margin-top: 10px;
+            margin-left: 90px;
+            text-decoration: none;
+            color: black;
+            font-size: 30px;
+        }
+        .save a:hover {
+            text-decoration: none;
+            color: #4B6698;
+        }
+        .save span {
+            display: block;
+        }
+    </style>
 		
 			
 					
