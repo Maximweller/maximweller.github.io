@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tic-Tac-Toe </title>
+    
+    <!-- Favicons Links -->
+    <link type="image/png" rel="shortcut icon" href="../../assets/img/favicon/favicon.png">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Merriweather+Sans:400,70'>
+
+    <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+    <a href="../index.html" class="back"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+    <style>
+        .back{
+            position: fixed;
+            top: 30px;
+            right: 30px;
+            border-radius: 50%;
+            width: 66px;
+            height: 66px;
+            background-color: transparent;
+            border: 3px solid black;
+            z-index: 1000;
+        }
+        .back:hover {
+            background-color: black;
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        }
+        .back:hover i {
+            color: white;
+        }
+        .back i {
+            color: black;
+            text-decoration: none;
+        }
+        .back i  {
+            font-size: 25px;
+            padding-top: 17px;
+            padding-left: 19px;
+        }
+    </style>
+
+<form class="board">
+    <div class="boxes">
+        <input class="x" id="x-1" type="checkbox">
+        <input class="x" id="x-2" type="checkbox">
+        <input class="x" id="x-3" type="checkbox">
+        <input class="x" id="x-4" type="checkbox">
+        <input class="x" id="x-5" type="checkbox">
+        <input class="x" id="x-6" type="checkbox">
+        <input class="x" id="x-7" type="checkbox">
+        <input class="x" id="x-8" type="checkbox">
+        <input class="x" id="x-9" type="checkbox">
+        <input class="o" id="o-1" type="checkbox">
+        <input class="o" id="o-2" type="checkbox">
+        <input class="o" id="o-3" type="checkbox">
+        <input class="o" id="o-4" type="checkbox">
+        <input class="o" id="o-5" type="checkbox">
+        <input class="o" id="o-6" type="checkbox">
+        <input class="o" id="o-7" type="checkbox">
+        <input class="o" id="o-8" type="checkbox">
+        <input class="o" id="o-9" type="checkbox">
+        <div class="controls">
+            <div class="control -x">
+                <div class="control-labels">
+                    <label class="x" for="x-1"></label>
+                    <label class="x" for="x-2"></label>
+                    <label class="x" for="x-3"></label>
+                    <label class="x" for="x-4"></label>
+                    <label class="x" for="x-5"></label>
+                    <label class="x" for="x-6"></label>
+                    <label class="x" for="x-7"></label>
+                    <label class="x" for="x-8"></label>
+                    <label class="x" for="x-9"></label>
+                </div>
+            </div>
+            <div class="control -o">
+                <div class="control-labels">
+                    <label class="o" for="o-1"></label>
+                    <label class="o" for="o-2"></label>
+                    <label class="o" for="o-3"></label>
+                    <label class="o" for="o-4"></label>
+                    <label class="o" for="o-5"></label>
+                    <label class="o" for="o-6"></label>
+                    <label class="o" for="o-7"></label>
+                    <label class="o" for="o-8"></label>
+                    <label class="o" for="o-9"></label>
+                </div>
+          </div>
+        </div>
+        <div class="done">
+            <div class="lead">
+                Winner is
+            </div>
+            <div class="winner"></div>
+                <input type="submit" value="Again" />
+        </div>
+        <div class="tie">
+            <span>It's a tie</span><input type="submit" value="Again" />
+        </div>
+        <div class="turn">
+            <div class="turn-x"></div>
+            <div class="turn-o"></div>
+        </div>
+    </div>
+    <h1>
+        <span>Tic</span><span>Tac</span><span>Toe</span>
+    </h1>
+</form>
+
+
+</body>
+
+</html>

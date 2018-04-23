@@ -1,0 +1,93 @@
+.body-area3 {
+    background: linear-gradient(to right, #48DBFB 50%, #F8F8F8 50%);
+    height: 85vh;
+    width: 100%;
+    margin-bottom: 7.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body-area3-div1 {
+    height: 200px;
+    margin-right: 48px;
+}
+.body-area3-div1 p {
+    color: #F8F8F8;
+    margin: 0;
+    font-size: 110px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.body-area3-div1 div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.body-area3-div1 span {
+    color: #F8F8F8;
+    margin: 0px;
+    margin-right: 6px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.body-area3-div2 {
+    height: 200px;
+    width: 400px;
+    margin-left: 50px;
+}
+.body-area3-div2 p {
+    color: #48DBFB;
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.body-area3-div2 p:first-child {
+    font-weight: bold;
+    margin-top: 0px;
+}
+.body-area3-div2 p:nth-child(2) {
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.body-area3-div2 span {
+    color: #48DBFB;
+    margin: 0px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .3px;
+}
+nav:before {
+    background: rgba(72,219,251, 0.98)!important;
+}
+button:before {
+    background: -webkit-linear-gradient(#F8F8F8, #F8F8F8 20%, transparent 20%, transparent 40%, #F8F8F8 40%, #F8F8F8 60%, transparent 60%, transparent 80%, #F8F8F8 80%, #F8F8F8 100%)!important;
+    background: -o-linear-gradient(#F8F8F8, #F8F8F8 20%, transparent 20%, transparent 40%, #F8F8F8 40%, #F8F8F8 60%, transparent 60%, transparent 80%, #F8F8F8 80%, #F8F8F8 100%)!important;
+}
+.menu li:after {
+    color: #48DBFB!important;
+}
+.menu2 .share i.fa {
+    background-color: #F8F8F8!important;
+    color: #48DBFB!important;
+}
+.menu2 .submenu li a:hover.telegram i.fa {
+    background-color: #0D86D7!important;
+}
+.menu2 .submenu li a:hover.twitter i.fa {
+    background-color: #55acee!important;
+}
+.menu2 .submenu li a:hover.prmail i.fa {
+    background-color: #5A71B5!important;
+}
+.menu2 .submenu li a:hover.github i.fa {
+    background-color: black!important;
+}
+
+
+
+
+
+
+

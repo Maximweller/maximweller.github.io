@@ -55,9 +55,14 @@
     <section>
         <div class="wrap">
             <div class="save">
-                <img src="Save_the_planet/save-the-planet-img.jpg" alt="img">
+                <img src="Save_the_planet/save_the_planet_img.jpg" alt="img">
                 <a href="Save_the_planet/index.html"><span>Save the planet</span></a>
                 <span>Click on each square to plant a tree. Factories can colonize us! Save the planet!</span>
+            </div>
+            <div class="save">
+                <img src="Tic_tac_toe/tic_tac_toe_img.jpg" alt="img">
+                <a href="Tic_tac_toe/index.html"><span>Tic Tac Toe</span></a>
+                <span>Pure html, css tic tac toe game</span>
             </div>
                                     
         </div>
@@ -76,10 +81,12 @@
             width: 92%;
             margin-left: auto;
             margin-right: auto;
+            display: flex;
         }
         .save {
             width: 400px;
             height: 300px;
+            margin-right: 100px;
         }
         .save img {
             display: block;
@@ -99,6 +106,9 @@
         .save span {
             display: block;
         }
+        .save:nth-child(2) a {
+            margin-left: 120px;
+        }
     </style>
 		
 			
@@ -106,7 +116,6 @@
 	
 	<link rel="stylesheet" href="../assets/css/main.css">
 	<link media="screen" rel="stylesheet" href="../assets/css/media.css">
-	<link rel="stylesheet" href="../assets/libs/bootstrap/bootstrap-grid.css">
 	<script src="../assets/js/common.js"></script>
 	<script src="../assets/libs/jquery/jquery-3.2.1.min.js"></script>
 	<script>

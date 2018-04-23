@@ -3,354 +3,31 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-    .header-wrapper {
-        margin-right: 4.5%;
-    }
     
-    .body-area2 {
-        width: 49%;
-        margin-right: 1%;
-    }
-    
-    .block-social {
-        right: 1.5%;
-    }
-    
-    .body-area4 {
-        width: 49%;
-        margin-right: 1%;
-    }
-    
-    .body-area6 {
-        width: 49%;
-        margin-right: 1%;
-    }
-    
-    .footer-rights {
-        margin-right: 10px;
-    } 
 }
 
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 1020px) {
-    .body-area div p {
-        font-size: 100px;
-    }
     
-    .body-area div span {
-        margin-left: 49%;
-    }
-    
-    .body-area2 div {
-        margin-left: 50px;
-    }
-    
-    .body-area2 div p {
-        font-size: 100px;
-    }
-    
-    .body-area3 div p {
-        font-size: 17px;
-    }
-    
-    .body-area4 div {
-        margin-left: 50px;
-    }
-    
-    .body-area4 div p {
-        font-size: 80px;
-    }
-    
-    .body-area5 div p {
-        font-size: 80px;
-    }
-    
-    .body-area5 div span {
-        margin-left: 59%;
-    }
-    
-    .body-area6 div {
-        margin-left: 50px;
-    }
-    
-    .body-area6 div p {
-        font-size: 40px;
-    }
 }
 
 @media only screen and (max-width : 900px) {
-    .body-area4 div {
-        margin-bottom: 90px;
-    }
     
 }
 
 @media only screen and (max-width : 800px) {
-    .body-area div {
-        margin-right: 20px;
-    }
     
-    .body-area div p {
-        font-size: 80px;
-    }
-    
-    .body-area div span {
-        margin-left: 38.3%;
-    }
-    
-    .body-area2 div {
-        margin-left: 40px;
-    }
-    
-    .body-area2 div p {
-        font-size: 80px;
-    }
-    
-    .body-area3 div {
-        margin-right: 20px;
-    }
-    
-    .body-area3 div p {
-        font-size: 16px;
-    }
-    
-    .body-area4 div {
-        margin-left: 40px;
-    }
-    
-    .body-area4 div p {
-        font-size: 70px;
-    }
-    
-    .body-area5 div {
-        margin-right: 20px;
-    }
-    
-    .body-area5 div p {
-        font-size: 70px;
-    }
-    
-    .body-area5 div span {
-        margin-left: 53%;
-    }
-    
-    .body-area6 div {
-        margin-left: 40px;
-    }
-    
-    .body-area6 div p {
-        font-size: 30px;
-    }
 }
 
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px){
-    .header-wrapper {
-        margin-right: 3.6%;
-    }
-    
-    .body-area {
-        height: 42.5vh;
-        width: 100%;
-        float: none;
-        margin-bottom: 0vh;
-        justify-content: center;
-        align-items: flex-end;
-    }
-
-    .body-area div {
-        margin-right: 0px;
-    }
-
-    .body-area div p {
-        font-size: 90px;
-    }
-
-    .body-area div span {
-        margin-left: 44.8%;
-        font-size: 22px;
-    }
-
-    .body-area2 {
-        height: 42.5vh;
-        width: 100%;
-        margin-bottom: 15vh;
-        float: none;
-        justify-content: center;
-        align-items: flex-start;
-    }
-
-    .body-area2 div {
-        margin-left: 0px;
-    }
-
-    .body-area2 div p {
-        font-size: 90px;
-    }
-
-    .body-area2 span {
-        font-size: 22px;
-    }
-    
-    .block-social {
-        position: absolute;
-        left: 38%;
-        top: 85vh;
-    }
-
-    .block-social a {
-        color: black;
-        font-size: 15px;
-        display: inline-block;
-        margin-top: 0px;
-        margin-right: 15px;
-    }
-
-    .block-social a i {
-        padding-top: 11px;
-    }
-    
-    .body-area3 {
-        height: 42.5vh;
-        width: 100%;
-        float: none;
-        margin-bottom: 0vh;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .body-area3 div {
-        margin-right: 0px;
-        margin-left: 0px;
-        width: 450px;
-    }
-
-    .body-area3 div p {
-        font-size: 17px;
-    }
-
-    .body-area4 {
-        height: 42.5vh;
-        width: 100%;
-        margin-bottom: 15vh;
-        margin-top: 0vh;
-        float: none;
-        justify-content: center;
-        align-items: flex-start;
-    }
-
-    .body-area4 div {
-        margin: 0px;
-    }
-
-    .body-area4 div p {
-        font-size: 70px;
-    }
-
-    .body-area4 span {
-        font-size: 22px;
-    }
-    
-    .body-area5 {
-        height: 42.5vh;
-        width: 100%;
-        float: none;
-        margin-bottom: 0vh;
-        justify-content: center;
-        align-items: flex-end;
-    }
-
-    .body-area5 div {
-        margin: 0px;
-        height: 170px;
-    }
-
-    .body-area5 div p {
-        font-size: 70px;
-    }
-
-    .body-area5 div span {
-        margin-left: 54%;
-        font-size: 22px;
-    }
-
-    .body-area6 {
-        height: 42.5vh;
-        width: 100%;
-        margin-bottom: 7.5vh;
-        margin-top: 0vh;
-        float: none;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .body-area6 div {
-        margin: 0px;
-        margin-left: 40px;
-    }
-
-    .body-area6 div p {
-        font-size: 40px;
-    }
-    
-    .body-area6 div p:first-child {
-        margin: 0px;
-    }
-
-    .body-area6 span {
-        font-size: 18px;
-    }
-    
     
 }
 
 @media only screen and (max-width : 600px) {
-    .block-social {
-        left: 37%;
-    }
     
-    .body-area div p {
-        font-size: 80px;
-    }
-    
-    .body-area div span {
-        font-size: 21px;
-        margin-left: 41%;
-    }
-    
-    .body-area2 div p {
-        font-size: 80px;
-    }
-    
-    .body-area2 div span {
-        font-size: 21px;
-    }
-    
-    .body-area3 div p {
-        font-size: 16px;
-    }
-    
-    .body-area4 div span {
-        font-size: 21px;
-    }
-    
-    .body-area5 div span {
-        font-size: 21px;
-    }
-    
-    .body-area6 div {
-        width: 300px;
-    }
-    
-    .body-area6 div p {
-        font-size: 36px;
-    }
-    
-    .body-area6 div span {
-        font-size: 17px;
-    }
 }
 
 /* SAD CAT */
@@ -365,27 +42,14 @@
 }
 
 @media only screen and (max-width : 550px) {
-    .block-social {
-        left: 34%;
-    }
     
-    .body-area3 div {
-        width: 420px;
-    }
 }
 
 
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px){
-    .body-area3 div {
-        margin-right: 20px;
-        margin-left: 20px;
-    }
     
-    .body-area3 div p {
-        font-size: 15px;
-    }
 }
 
     
@@ -398,21 +62,10 @@
     .sadcat span {
         font-size: 18px;
     }
-    
-    .header-games {
-        margin-right: 20px;
-    }
 }
 
 @media only screen and (max-width : 430px) {
-    .block-social {
-        left: 32%;
-    }
     
-    .header-lang {
-        margin-top: 0px;
-        width: 30px;
-    }
 }
 
 @media only screen and (max-width : 380px) {
@@ -423,48 +76,17 @@
     .sadcat span {
         font-size: 15px;
     }
-    
-    .button {
-        font-size: 18px;
-        padding: 8px 30px;
-        width: 150px;
-        height: 40px;
-    }
-    
-    .block-social {
-        left: 29%;
-    }
-    
-    .body-area div p {
-        font-size: 70px;
-    }
-    
-    .body-area div span {
-        font-size: 20px;
-        margin-left: 35%;
-    }
-    
-    .body-area2 div p {
-        font-size: 70px;
-    }
-    
-    .body-area2 div span {
-        font-size: 20px;
-    }
 }
 
 @media only screen and (max-width : 350px) {
-    .block-social {
-        left: 27%;
-    }
+    
 }
     
 
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-    .block-social {
-        left: 25%;
-    }
+    
 }
-	/**/
+
+

@@ -1,0 +1,77 @@
+.body-area2 {
+    background: -webkit-linear-gradient(left, #F8F8F8 50%, #2FC798 50%);
+    height: 85vh;
+    width: 100%;
+    margin-bottom: 7.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body-area2-div1 {
+    height: 150px;
+    width: 500px;
+    margin-right: 40px;
+}
+.body-area2-div1 p {
+    color: #2FC798;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .3px;
+    line-height: 25px;
+}
+.body-area2-div2 {
+    height: 200px;
+    margin-left: 60px
+}
+.body-area2-div2 p {
+    color: #F8F8F8;
+    margin: 0;
+    font-size: 110px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.body-area2-div2 div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+.body-area2-div2 span {
+    color: #F8F8F8;
+    margin: 0px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+nav:before {
+    background: rgba(47,199,152, 0.98)!important;
+}
+button:before {
+    background: -webkit-linear-gradient(#2FC798, #2FC798 20%, transparent 20%, transparent 40%, #2FC798 40%, #2FC798 60%, transparent 60%, transparent 80%, #2FC798 80%, #2FC798 100%)!important;
+    background: -o-linear-gradient(#2FC798, #2FC798 20%, transparent 20%, transparent 40%, #2FC798 40%, #2FC798 60%, transparent 60%, transparent 80%, #2FC798 80%, #2FC798 100%)!important;
+}
+.menu li:after {
+    color: #2FC798!important;
+}
+.menu2 .share i.fa {
+    background-color: #2FC798!important;
+    color: #F8F8F8!important;
+}
+.menu2 .submenu li a:hover.telegram i.fa {
+    background-color: #0D86D7!important;
+}
+.menu2 .submenu li a:hover.twitter i.fa {
+    background-color: #55acee!important;
+}
+.menu2 .submenu li a:hover.prmail i.fa {
+    background-color: #5A71B5!important;
+}
+.menu2 .submenu li a:hover.github i.fa {
+    background-color: black!important;
+}
+
+
+
+
