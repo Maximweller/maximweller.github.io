@@ -1,33 +1,240 @@
 /*==========  Desktop First  ==========*/
 
 
+@media only screen and (max-width : 1350px) {
+    .body-area2-div1 div p {
+        width: 500px;
+    }
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-    
+    .body-area-div1 p {
+        font-size: 100px;
+    }
+    .body-area-div2 div {
+        margin-left: 70px;
+    }
+    .body-area-div2 p {
+        font-size: 100px;
+    }
+    .body-area2-div1 p {
+        width: 400px;
+    }
+    .body-area2-div2 div {
+        margin-left: 70px;
+    }
+    .body-area2-div2 p {
+        font-size: 90px;
+    }
+    .body-area3-div1 p {
+        font-size: 90px;
+    }
+    .body-area3-div2 div {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width : 1050px) {
+    .body-area-div1 p {
+        font-size: 90px;
+    }
+    .body-area-div1 span {
+        font-size: 20px;
+    }
+    .body-area-div2 p {
+        font-size: 90px;
+    }
+    .body-area-div2 span {
+        font-size: 20px;
+    }
+    .body-area2-div1 p {
+        font-size: 16px;
+        width: 360px;
+    }
+    .body-area2-div2 p {
+        font-size: 80px;
+    }
+    .body-area2-div2 span {
+        font-size: 20px;
+    }
+    .body-area3-div1 p {
+        font-size: 80px;
+    }
+    .body-area3-div1 span {
+        font-size: 20px;
+    }
+    .body-area3-div2 div {
+        width: 340px;
+    }
+    .body-area3-div2 p {
+        font-size: 45px;
+    }
 }
 
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 1020px) {
-    
-}
-
-@media only screen and (max-width : 900px) {
-    
+@media only screen and (max-width : 992px) {
+    .body-area {
+        background: linear-gradient(to bottom, #4B6698 50%, #F8F8F8 50%);
+    }
+    .body-area-div1 {
+        height: 50%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .body-area-div1 div {
+        margin-right: 0px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .body-area-div2 {
+        height: 50%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .body-area-div2 div {
+        margin-left: 0px;
+        margin-top: 70px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .body-area2 {
+        background: linear-gradient(to bottom, #F8F8F8 50%, #2FC798 50%);
+        display: flex;
+        flex-direction: column;
+    }
+    .body-area2-div1 {
+        height: 50%;
+        width: 100%;
+    }
+    .body-area2-div2 {
+        height: 50%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .body-area2-div2 div {
+        margin-left: 0px;
+        margin-top: 70px;
+    }
+    .body-area3 {
+        background: linear-gradient(to bottom, #48DBFB 50%, #F8F8F8 50%);
+        display: flex;
+        flex-direction: column;
+    }
+    .body-area3-div1 {
+        height: 50%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .body-area3-div1 div {
+        margin-bottom: 40px;
+        margin-right: 0px;
+    }
+    .body-area3-div2 {
+        height: 50%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .body-area3-div2 div {
+        margin-top: 70px;
+        margin-left: 0px;
+    }
 }
 
 @media only screen and (max-width : 800px) {
-    
+    .body-area-div1 p {
+        font-size: 80px;
+    }
+    .body-area-div1 span {
+        font-size: 19px;
+    }
+    .body-area-div2 p {
+        font-size: 80px;
+    }
+    .body-area-div2 span {
+        font-size: 19px;
+    }
+    .body-area2-div1 p {
+        font-size: 15px;
+    }
+    .body-area2-div2 span {
+        font-size: 19px;
+    }
+    .body-area3-div1 span {
+        font-size: 19px;
+    }
+    .body-area3-div2 p {
+        font-size: 42px;
+    }
+    button {
+        left: 60px;
+    }
+    .menu2.bottomLeft {
+        left: 60px;
+    }
 }
 
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px){
-    
-}
-
-@media only screen and (max-width : 600px) {
-    
+    .body-area-div1 p {
+        font-size: 70px;
+    }
+    .body-area-div1 span {
+        font-size: 18px;
+        letter-spacing: .7px;
+    }
+    .body-area-div2 div {
+        margin-top: 60px;
+    }
+    .body-area-div2 p {
+        font-size: 70px;
+    }
+    .body-area-div2 span {
+        font-size: 18px;
+        letter-spacing: .7px;
+    }
+    .body-area2-div1 p {
+        font-size: 15px;
+        width: 340px;
+    }
+    .body-area2-div2 div {
+        margin-top: 60px;
+    }
+    .body-area2-div2 p {
+        font-size: 70px;
+    }
+    .body-area2-div2 span {
+        font-size: 18px;
+        letter-spacing: .7px;
+    }
+    .body-area3-div1 p {
+        font-size: 70px;
+    }
+    .body-area3-div1 span {
+        font-size: 18px;
+        letter-spacing: .7px;
+    }
+    .body-area3-div2 div {
+        margin-top: 60px;
+        width: 280px;
+    }
+    .body-area3-div2 p {
+        font-size: 35px;
+        margin-bottom: 0px;
+    }
 }
 
 /* SAD CAT */
@@ -42,7 +249,59 @@
 }
 
 @media only screen and (max-width : 550px) {
-    
+    .body-area-div1 p {
+        font-size: 60px;
+    }
+    .body-area-div1 span {
+        font-size: 17px;
+    }
+    .body-area-div2 div {
+        margin-top: 50px;
+    }
+    .body-area-div2 p {
+        font-size: 60px;
+    }
+    .body-area-div2 span {
+        font-size: 17px;
+    }
+    .body-area2-div1 {
+        justify-content: flex-end;
+    }
+    .body-area2-div1 p {
+        font-size: 14px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .body-area2-div2 div {
+        margin-top: 50px;
+    }
+    .body-area2-div2 p {
+        font-size: 60px;
+    }
+    .body-area2-div2 span {
+        font-size: 17px;
+    }
+    .body-area3-div1 p {
+        font-size: 60px;
+    }
+    .body-area3-div1 span {
+        font-size: 17px;
+    }
+    .body-area3-div2 div {
+        margin-top: 50px;
+        width: 280px;
+    }
+    .body-area3-div2 p {
+        font-size: 32px;
+    }
+    button {
+        left: 40px;
+        width: 32px;
+        height: 26px;
+    }
+    .menu2.bottomLeft {
+        left: 40px;
+    }
 }
 
 
