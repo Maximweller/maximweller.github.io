@@ -308,7 +308,23 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px){
-    
+    .body-area3-div2 div {
+        width: 240px;
+    }
+    .body-area3-div2 span {
+        font-size: 15px!important;
+    }
+    .menu2.bottomLeft {
+        visibility: hidden;
+    }
+    .open .menu2.bottomLeft {
+        visibility: visible;
+        -webkit-transition-delay: 0.75s;
+          transition-delay: 0.75s;
+    }
+    nav ul li {
+        font-size: 35px!important;
+    }
 }
 
     
@@ -324,7 +340,9 @@
 }
 
 @media only screen and (max-width : 430px) {
-    
+    .body-area2-div1 p {
+        width: 250px;
+    }
 }
 
 @media only screen and (max-width : 380px) {
