@@ -1,8 +1,8 @@
 .body-area2 {
-    background: -webkit-linear-gradient(left, #F8F8F8 50%, #2FC798 50%);
+    background: -webkit-linear-gradient(left, #F8F8F8 50%, #05c46b 50%);
     height: 85vh;
     width: 100%;
-    margin-bottom: 7.5vh;
+    margin-bottom: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@
     align-items: center;
 }
 .body-area2-div1 p {
-    color: #2FC798;
+    color: #05c46b;
     width: 600px;
     margin: 0;
     margin-bottom: 10px;
@@ -56,17 +56,17 @@
 }
 
 nav:before {
-    background: rgba(47,199,152, 0.98)!important;
+    background: rgba(5,196,107, 0.98)!important;
 }
 button:before {
-    background: -webkit-linear-gradient(#2FC798, #2FC798 20%, transparent 20%, transparent 40%, #2FC798 40%, #2FC798 60%, transparent 60%, transparent 80%, #2FC798 80%, #2FC798 100%)!important;
-    background: -o-linear-gradient(#2FC798, #2FC798 20%, transparent 20%, transparent 40%, #2FC798 40%, #2FC798 60%, transparent 60%, transparent 80%, #2FC798 80%, #2FC798 100%)!important;
+    background: -webkit-linear-gradient(#05c46b, #05c46b 20%, transparent 20%, transparent 40%, #05c46b 40%, #05c46b 60%, transparent 60%, transparent 80%, #05c46b 80%, #05c46b 100%)!important;
+    background: -o-linear-gradient(#05c46b, #05c46b 20%, transparent 20%, transparent 40%, #05c46b 40%, #05c46b 60%, transparent 60%, transparent 80%, #05c46b 80%, #05c46b 100%)!important;
 }
 .menu li:after {
-    color: #2FC798!important;
+    color: #05c46b!important;
 }
 .menu2 .share i.fa {
-    background-color: #2FC798!important;
+    background-color: #05c46b!important;
     color: #F8F8F8!important;
 }
 .menu2 .submenu li a:hover.telegram i.fa {
@@ -81,6 +81,62 @@ button:before {
 .menu2 .submenu li a:hover.github i.fa {
     background-color: black!important;
 }
+
+.skills-wrap {
+    height: 650px;
+    margin-bottom: 7.5vh;
+}
+.skills {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills i {
+    margin-right: 20px;
+    font-size: 35px;
+    color: #05c46b;
+}
+.skills span {
+    font-size: 65px;
+    line-height: 70px;
+    color: #05c46b;
+    border-bottom: 2px solid #05c46b;
+}
+.skills1 {
+    margin-top: 50px;
+}
+.skills1:first-child {
+    margin-top: 20px;
+}
+.skills1 p {
+    margin: 0;
+    font-size: 40px;
+    color: #05c46b;
+    display: flex;
+    justify-content: center;
+}
+.skills1 div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.skills1 div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+.skills1 div div span {
+    margin-top: 10px;
+}
+
+
+
+
+
+
 
 
 

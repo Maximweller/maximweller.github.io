@@ -1,5 +1,5 @@
 .body-area3 {
-    background: linear-gradient(to right, #48DBFB 50%, #F8F8F8 50%);
+    background: linear-gradient(to right, #0fbcf9 50%, #F8F8F8 50%);
     height: 85vh;
     width: 100%;
     margin-bottom: 7.5vh;
@@ -53,7 +53,7 @@
     margin-left: 80px;
 }
 .body-area3-div2 p {
-    color: #48DBFB;
+    color: #0fbcf9;
     margin: 0;
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
@@ -68,25 +68,25 @@
     margin-bottom: 30px;
 }
 .body-area3-div2 div span {
-    color: #48DBFB;
+    color: #0fbcf9;
     margin: 0px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     letter-spacing: .3px;
 }
 nav:before {
-    background: rgba(72,219,251, 0.98)!important;
+    background: rgba(15,188,249, 0.98)!important;
 }
 button:before {
     background: -webkit-linear-gradient(#F8F8F8, #F8F8F8 20%, transparent 20%, transparent 40%, #F8F8F8 40%, #F8F8F8 60%, transparent 60%, transparent 80%, #F8F8F8 80%, #F8F8F8 100%)!important;
     background: -o-linear-gradient(#F8F8F8, #F8F8F8 20%, transparent 20%, transparent 40%, #F8F8F8 40%, #F8F8F8 60%, transparent 60%, transparent 80%, #F8F8F8 80%, #F8F8F8 100%)!important;
 }
 .menu li:after {
-    color: #48DBFB!important;
+    color: #0FBCF9!important;
 }
 .menu2 .share i.fa {
     background-color: #F8F8F8!important;
-    color: #48DBFB!important;
+    color: #0FBCF9!important;
 }
 .menu2 .submenu li a:hover.telegram i.fa {
     background-color: #0D86D7!important;

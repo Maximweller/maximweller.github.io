@@ -82,7 +82,7 @@ a {
     margin-right: auto;
 }
 .header-logo {
-    height: 23px;
+    height: 24px;
     width: 85px;
 }
 .header-blog {
@@ -200,7 +200,8 @@ a {
 .footer-rights {
     margin-bottom: 2vh;
     float: right;
-    letter-spacing: .7px;
+    letter-spacing: .6px;
+    line-height: 10px;
 }
 
 .footer-logo {

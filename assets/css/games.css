@@ -84,9 +84,10 @@ a {
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    flex-wrap: wrap;
 }
 .save {
-    width: 25%;
+    margin-right: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,6 +138,31 @@ a {
 }
 
 
+@media only screen and (max-width : 768px) {
+    .header-logo-wr {
+        margin-left: 0;
+    }
+}
 
+@media only screen and (max-width: 700px) {
+    .save {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .save {
+        margin-top: 40px;
+    }
+    .save:first-child {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header-blog {
+        margin-right: 10px;
+    }
+}
 
 
