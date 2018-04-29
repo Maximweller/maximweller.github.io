@@ -40,7 +40,7 @@
 	
 	<header>
         <div class="header-wrapper">
-            <div class="header-logo-wr"><a href="../index.html"><img class="header-logo"     src="../assets/img/logo/MWelllogo.png" alt="Logo"></a></div>
+            <div class="header-logo-wr"><a href="../index.html"><img class="header-logo"     src="../assets/img/logo/MWelllogo.png" alt="Logo"></a><span>Games</span></div>
             <div class="header-blog"><a href="../blog/index.html">Blog</a></div>
             <div class="header-lang">
                 <a href="#">EN.</a>
@@ -55,14 +55,18 @@
     <section>
         <div class="wrap">
             <div class="save">
-                <img src="Save_the_planet/save_the_planet_img.jpg" alt="img">
-                <a href="Save_the_planet/index.html"><span>Save the planet</span></a>
-                <span>Click on each square to plant a tree. Factories can colonize us! Save the planet!</span>
+                <a href="Save_the_planet/index.html">
+                    <img src="Save_the_planet/save_the_planet_img.jpg" alt="img">
+                    <p>Save the planet</p>
+                </a>
+                <span>Click on each square to plant a tree. Save the planet!</span>
             </div>
             <div class="save">
-                <img src="Tic_tac_toe/tic_tac_toe_img.jpg" alt="img">
-                <a href="Tic_tac_toe/index.html"><span>Tic Tac Toe</span></a>
-                <span>Pure html, css tic tac toe game</span>
+                <a href="Tic_tac_toe/index.html">
+                    <img src="Tic_tac_toe/tic_tac_toe_img.jpg" alt="img">
+                    <p>Tic Tac Toe</p>
+                </a>
+                <span>Pure html, css tic tac toe game.</span>
             </div>
                                     
         </div>
@@ -70,64 +74,14 @@
    
 
     </section>
-	
-	<style>
-        .header-blog {
-            margin-right: 40px!important;
-        }
-        .wrap {
-            margin-top: 80px;
-            height: 80vh;
-            width: 92%;
-            margin-left: auto;
-            margin-right: auto;
-            display: flex;
-        }
-        .save {
-            width: 400px;
-            height: 300px;
-            margin-right: 100px;
-        }
-        .save img {
-            display: block;
-            border-radius: 10px;
-        }
-        .save a {
-            display: block;
-            margin-top: 20px;
-            margin-left: 90px;
-            text-decoration: none;
-            color: black;
-            font-size: 30px;
-        }
-        .save a:hover {
-            text-decoration: none;
-            color: #4B6698;
-        }
-        .save span {
-            display: block;
-            margin-top: 10px;
-        }
-        .save:nth-child(2) a {
-            margin-left: 120px;
-        }
-    </style>
 		
 			
 					
 	
-	<link rel="stylesheet" href="../assets/css/main.css">
+	<link rel="stylesheet" href="../assets/css/games.css">
 	<link media="screen" rel="stylesheet" href="../assets/css/media.css">
-	<script src="../assets/js/common.js"></script>
 	<script src="../assets/libs/jquery/jquery-3.2.1.min.js"></script>
-	<script>
-        $(window).on('load', function () {
-           $preloader = $('.loading-wrapper'),
-               $loader = $preloader.find('.loader');
-            $loader.fadeOut();
-            $preloader.delay(350).fadeOut('slow');
-        });
-    </script>
+    <script src="../assets/js/common.js"></script>
 
 </body>
 
