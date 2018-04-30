@@ -128,10 +128,14 @@ button:before {
     align-items: center;
     margin-right: 30px;
 }
-.skills1 div div span {
-    margin-top: 10px;
+.skills1 div div a {
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
 }
-
+.skills1 div div a:hover {
+    color: blue;
+}
 
 
 
