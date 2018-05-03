@@ -372,7 +372,7 @@
 
 
 /* Custom, iPhone Retina 320px */
-@media only screen and (max-width : 330px) {
+@media only screen and (max-width : 320px) {
     .body-area-div2 div {
         margin-top: 40px;
     }
@@ -387,7 +387,11 @@
         font-size: 30px!important;
     }
     button {
-        top: 70px;
+        top: 60px;
+        left: 30px;
+    }
+    .skills1 div div img {
+        width: 90px;
     }
 }
 
