@@ -268,17 +268,6 @@
     }
 }
 
-/* SAD CAT */
-@media only screen and (max-width : 590px) {
-    .sadcat img {
-        width: 400px;
-    }
-    
-    .sadcat span {
-        font-size: 20px;
-    }
-}
-
 @media only screen and (max-width : 550px) {
     .body-area-div1 p {
         font-size: 60px;
@@ -365,18 +354,6 @@
     
 }
 
-    
-/* SAD CAT */
-@media only screen and (max-width : 451px) {
-    .sadcat img {
-        width: 350px;
-    }
-    
-    .sadcat span {
-        font-size: 18px;
-    }
-}
-
 
 @media only screen and (max-width : 450px) {
     .skills-wrap {
@@ -391,22 +368,11 @@
     .footer-logo {
         margin-top: 10px;
     }
-}
-
-@media only screen and (max-width : 380px) {
-    .sadcat img {
-        width: 250px;
-    }
-    
-    .sadcat span {
-        font-size: 15px;
-    }
-}
-    
+} 
 
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
+/* Custom, iPhone Retina 320px */
+@media only screen and (max-width : 330px) {
     .body-area-div2 div {
         margin-top: 40px;
     }
@@ -419,6 +385,9 @@
     }
     nav ul li {
         font-size: 30px!important;
+    }
+    button {
+        top: 70px;
     }
 }
 
