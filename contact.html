@@ -22,11 +22,6 @@
     
     <!-- Normalize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
-    
-    <!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
 </head>
 <body>
     
@@ -39,11 +34,11 @@
 	<!-- End Loading Section -->
 	
 	<header>
-	    <div class="header-wrapper">
+        <div class="header-wrapper">
             <div class="header-logo-wr"><a href="index.html"><img class="header-logo" src="assets/img/logo/MWelllogo.png" alt="Logo"></a></div>
             <div class="header-lang">
                 <a href="#">EN.</a>
-                <a href="/ru/portfolio.html">RU.</a>
+                <a href="ru/contact.html">RU.</a>
             </div>
             <style>
                 .header-lang a:nth-child(2) {color: #BCBCBC;}
@@ -53,29 +48,29 @@
 	
 	<!-- Start section -->
 	<section class="mycontainer">
-        <div class="body-area3">
-            <button class="menu-toggle"></button>
-            <nav>
-                <ul class="menu">
-                    <a href="index.html"><li data-text="Home">Home</li></a>
-                    <a href="about.html"><li data-text="About">About</li></a>
-                    <a href="blog/index.html"><li data-text="Blog">Blog</li></a>
-                    <a href="/portfolio.html"><li data-text="Projects">Projects</li></a>
-                    <a href="games/index.html"><li data-text="Games">Games</li></a>
-                    <a href="#"><li data-text="Contact">Contact</li></a>
-                </ul>
-            </nav>
-            <div class="body-area3-div1">
+        <div class="body-area2">
+            <div class="overlay">
+                <nav class="overlayMenu">  
+                    <ul role="menu">
+                        <li><a href="index.html" role="menuitem">Home</a></li>
+                        <li><a href="about.html" role="menuitem">About</a></li>
+                        <li><a href="portfolio/index.html" role="menuitem">Portfolio</a></li>
+                        <li><a href="blog/index.html" role="menuitem">Blog</a></li>
+                        <li><a href="games/index.html" role="menuitem">Games</a></li>
+                        <li><a href="#" role="menuitem">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="navBurger" role="navigation" id="navToggle"></div>
+            <div class="body-area2-div1">
+                <p>NOT READY.</p>
+            </div>
+            <div class="body-area2-div2">
                 <div>
-                    <p>Portfolio</p>
-                    <span>My projects</span>
+                    <p>Contact</p>
+                    <span>My contacts</span>
                 </div>
             </div>
-            <div class="body-area3-div2"><div>
-                <p>A selection of</p>
-                <p>6 case studies.</p>
-                <span>With over 20 projects for more than 15 clients. So I've made a brief selection.</span>
-            </div></div>
             <ul class="menu2 bottomLeft">
                 <li class="share top">
                 <i class="fa fa-share-alt"></i>
@@ -88,13 +83,6 @@
                 </li>
             </ul>
         </div>
-	   <!-- <div class="block-social">
-            <a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://t.me/maximweller" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i></a>
-            <a href="mailto:maximweller@protonmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-            <a href="https://github.com/Maximweller" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-            <a href="#" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a>
-        </div> -->
         <div class="footer-rights">
             <p>© 2018 | All Rights Reserved. Made by <a href="index.html"><img class="footer-logo" src="assets/img/logo/MWelllogo.png" alt="Logo"></a></p>
         </div>
@@ -106,13 +94,13 @@
 					
 	
 	<link rel="stylesheet" href="assets/css/main.css">
-	<link rel="stylesheet" href="assets/css/portfolio.css">
-	<link rel="stylesheet" href="assets/libs/menu/css/style.css">
+	<link rel="stylesheet" href="assets/css/contact.css">
+	<link rel="stylesheet" href="assets/libs/ham-menu/css/style.css">
 	<link rel="stylesheet" href="assets/libs/social-icons/css/style.css">
 	<link media="screen" rel="stylesheet" href="assets/css/media.css">
 	<script src="assets/libs/jquery/jquery-3.2.1.min.js"></script>
     <script src="assets/js/common.js"></script>
-	<script src="assets/libs/menu/js/index.js"></script>
+	<script src="assets/libs/ham-menu/js/index.js"></script>
 
 </body>
 

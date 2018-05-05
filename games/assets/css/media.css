@@ -22,6 +22,12 @@
     .save {
         margin-right: 0px;
     }
+    .save img {
+        width: 150px;
+    }
+    .save p {
+        font-size: 28px;
+    }
 }
 
 @media only screen and (max-width: 600px) {

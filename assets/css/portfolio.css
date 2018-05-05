@@ -74,16 +74,8 @@
     font-family: 'Roboto', sans-serif;
     letter-spacing: .3px;
 }
-nav:before {
-    background: rgba(15,188,249, 0.98)!important;
-}
-button:before {
-    background: -webkit-linear-gradient(#F8F8F8, #F8F8F8 20%, transparent 20%, transparent 40%, #F8F8F8 40%, #F8F8F8 60%, transparent 60%, transparent 80%, #F8F8F8 80%, #F8F8F8 100%)!important;
-    background: -o-linear-gradient(#F8F8F8, #F8F8F8 20%, transparent 20%, transparent 40%, #F8F8F8 40%, #F8F8F8 60%, transparent 60%, transparent 80%, #F8F8F8 80%, #F8F8F8 100%)!important;
-}
-.menu li:after {
-    color: #0FBCF9!important;
-}
+
+
 .menu2 .share i.fa {
     background-color: #F8F8F8!important;
     color: #0FBCF9!important;

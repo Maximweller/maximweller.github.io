@@ -22,11 +22,6 @@
     
     <!-- Normalize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
-    
-    <!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
 </head>
 <body>
     
@@ -54,25 +49,26 @@
 	<!-- Start section -->
 	<section class="mycontainer">
         <div class="body-area2">
-            <button class="menu-toggle"></button>
-            <nav>
-                <ul class="menu">
-                    <a href="index.html"><li data-text="Home">Home</li></a>
-                    <a href="/about.html"><li data-text="About">About</li></a>
-                    <a href="blog/index.html"><li data-text="Blog">Blog</li></a>
-                    <a href="portfolio.html"><li data-text="Projects">Projects</li></a>
-                    <a href="games/index.html"><li data-text="Games">Games</li></a>
-                    <a href="#"><li data-text="Contact">Contact</li></a>
-                </ul>
-            </nav>
+            <div class="overlay">
+                <nav class="overlayMenu">  
+                    <ul role="menu">
+                        <li><a href="index.html" role="menuitem">Home</a></li>
+                        <li><a href="/about.html" role="menuitem">About</a></li>
+                        <li><a href="portfolio/index.html" role="menuitem">Portfolio</a></li>
+                        <li><a href="blog/index.html" role="menuitem">Blog</a></li>
+                        <li><a href="games/index.html" role="menuitem">Games</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="navBurger" role="navigation" id="navToggle"></div>
             <div class="body-area2-div1">
-                <p>I'm Full-stack Developer, freelancer,  student in Mathematics.</p>
-                <p>Experienced with all stages of the development. Having an in-depth knowledge including HTML5, CSS3, JavaScript, Node.js.  </p>
+                <p>I'm Full-stack Developer,  student in Mathematics.</p>
+                <p>Experienced with all stages of the development. Having a knowledge in HTML5, CSS3, JavaScript, Node.js.  </p>
             </div>
             <div class="body-area2-div2">
                 <div>
                     <p>About me</p>
-                    <span>What about my skills?</span>
+                    <span>Who am I?</span>
                 </div>
             </div>
             <ul class="menu2 bottomLeft">
@@ -97,7 +93,7 @@
                     <div><img src="assets/img/tech/html+css/html5.png" alt="html5"><a href="https://en.wikipedia.org/wiki/HTML" target="_blank">Html5</a></div>
                     <div><img src="assets/img/tech/html+css/css3.png" alt="css3"><a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">Css3</a></div>
                     <div><img src="assets/img/tech/html+css/bootstrap4.jpg" alt="bootstrap"><a href="http://getbootstrap.com/" target="_blank">Bootstrap</a></div>
-                    <div><img src="assets/img/tech/html+css/materialize%20css.png" alt="materialize"><a href="http://materializecss.com/" target="_blank">Materializecss</a></div>
+                    <div><img src="assets/img/tech/html+css/materialize%20css.png" alt="materialize"><a href="http://materializecss.com/" target="_blank">Materialize</a></div>
               <!--  <div><img src="assets/img/tech/html+css/sass.png" alt="sass"><a href="http://sass-lang.com/" target="_blank">Sass/Scss</a></div> -->
                     <div><img src="assets/img/tech/html+css/gulp.png" alt="gulp"><a href="https://gulpjs.com/" target="_blank">Gulp</a></div>
                     <div><img src="assets/img/tech/js/js.png" alt="JS"><a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JS</a></div>
@@ -143,12 +139,12 @@
 	
 	<link rel="stylesheet" href="assets/css/main.css">
 	<link rel="stylesheet" href="assets/css/about.css">
-	<link rel="stylesheet" href="assets/libs/menu/css/style.css">
+	<link rel="stylesheet" href="assets/libs/ham-menu/css/style.css">
 	<link rel="stylesheet" href="assets/libs/social-icons/css/style.css">
 	<link media="screen" rel="stylesheet" href="assets/css/media.css">
 	<script src="assets/libs/jquery/jquery-3.2.1.min.js"></script>
     <script src="assets/js/common.js"></script>
-	<script src="assets/libs/menu/js/index.js"></script>
+	<script src="assets/libs/ham-menu/js/index.js"></script>
 
 </body>
 

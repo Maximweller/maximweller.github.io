@@ -22,11 +22,6 @@
     
     <!-- Normalize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
-    
-    <!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
 </head>
 <body>
     
@@ -39,9 +34,9 @@
 	<!-- End Loading Section -->
 	
 	<header>
-        <span class="jfdsnvkj">в 2.3.3</span>
+        <span class="Berners-Lee">в 2.4.0</span>
         <style>
-            .jfdsnvkj {
+            .Berners-Lee {
                 position: fixed;
             } 
         </style>
@@ -60,17 +55,18 @@
 	<!-- Start section -->
 	<section class="mycontainer">
         <div class="body-area">
-            <button class="menu-toggle"></button>
-            <nav>
-                <ul class="menu">
-                    <a href="/ru/index.html"><li data-text="Главная">Главная</li></a>
-                    <a href="about.html"><li data-text="Обо мне">Обо мне</li></a>
-                    <a href="../blog/ru/index.html"><li data-text="Блог">Блог</li></a>
-                    <a href="portfolio.html"><li data-text="Портфолио">Портфолио</li></a>
-                    <a href="../games/ru/index.html"><li data-text="Игры">Игры</li></a>
-                    <a href="#"><li data-text="Контакты">Контакты</li></a>
-                </ul>
-            </nav>
+            <div class="overlay">
+                <nav class="overlayMenu">  
+                    <ul role="menu">
+                        <li><a href="/ru/index.html" role="menuitem">Главная</a></li>
+                        <li><a href="about.html" role="menuitem">Обо мне</a></li>
+                        <li><a href="portfolio/index.html" role="menuitem">Портфолио</a></li>
+                        <li><a href="../blog/ru/index.html" role="menuitem">Блог</a></li>
+                        <li><a href="../games/ru/index.html" role="menuitem">Игры</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="navBurger" role="navigation" id="navToggle"></div>
             <div class="body-area-div1">
                 <div>
                     <p>Максим</p>
@@ -103,12 +99,12 @@
 					
 	
 	<link rel="stylesheet" href="../assets/css/main.css">
-	<link rel="stylesheet" href="../assets/libs/menu/css/style.css">
+	<link rel="stylesheet" href="../assets/libs/ham-menu/css/style.css">
 	<link rel="stylesheet" href="../assets/libs/social-icons/css/style.css">
 	<link media="screen" rel="stylesheet" href="../assets/css/media.css">
 	<script src="../assets/libs/jquery/jquery-3.2.1.min.js"></script>
     <script src="../assets/js/common.js"></script>
-	<script src="../assets/libs/menu/js/index.js"></script>
+	<script src="../assets/libs/ham-menu/js/index.js"></script>
 
 </body>
 

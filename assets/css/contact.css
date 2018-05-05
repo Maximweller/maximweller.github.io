@@ -1,5 +1,5 @@
 .body-area2 {
-    background: -webkit-linear-gradient(left, #F8F8F8 50%, #05c46b 50%);
+    background: -webkit-linear-gradient(left, #F8F8F8 50%, #FF6059 50%);
     height: 85vh;
     width: 100%;
     margin-bottom: 15vh;
@@ -16,17 +16,14 @@
     align-items: center;
 }
 .body-area2-div1 p {
-    color: #05c46b;
+    color: #FF6059;
     width: 600px;
     margin: 0;
     margin-bottom: 10px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     letter-spacing: .3px;
-    line-height: 28px;
-}
-.body-area2-div1 p:nth-child(2) {
-    margin-bottom: 0;
+    line-height: 25px;
 }
 .body-area2-div2 {
     height: 100%;
@@ -53,6 +50,7 @@
     color: #F8F8F8;
     margin: 0px;
     margin-top: 10px;
+    margin-left: 5px;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
@@ -60,7 +58,7 @@
 
 
 .menu2 .share i.fa {
-    background-color: #05c46b!important;
+    background-color: #FF6059!important;
     color: #F8F8F8!important;
 }
 .menu2 .submenu li a:hover.telegram i.fa {
@@ -74,58 +72,6 @@
 }
 .menu2 .submenu li a:hover.github i.fa {
     background-color: black!important;
-}
-
-.skills-wrap {
-    height: 650px;
-    margin-bottom: 7.5vh;
-}
-.skills {
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.skills i {
-    margin-right: 20px;
-    font-size: 30px;
-    color: #05c46b;
-}
-.skills span {
-    font-size: 50px;
-    line-height: 70px;
-    color: #05c46b;
-    border-bottom: 2px solid #05c46b;
-}
-.skills1 {
-    margin-top: 50px;
-}
-.skills1 p {
-    margin: 0;
-    font-size: 35px;
-    color: #05c46b;
-    display: flex;
-    justify-content: center;
-}
-.skills1 div {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-.skills1 div div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 30px;
-}
-.skills1 div div a {
-    margin-top: 15px;
-    text-decoration: none;
-    color: black;
-}
-.skills1 div div a:hover {
-    color: blue;
 }
 
 

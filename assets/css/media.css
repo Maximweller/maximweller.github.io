@@ -33,8 +33,8 @@
     .body-area3-div2 div {
         width: 400px;
     }
-    .skills span {
-        font-size: 60px;
+    .menu2.bottomLeft {
+        left: 70px;
     }
 }
 
@@ -74,13 +74,13 @@
         font-size: 45px;
     }
     .skills i {
-        font-size: 30px;
-    }
-    .skills span {
-        font-size: 55px;
+        font-size: 25px;
     }
     .skills1 p {
-        font-size: 35px;
+        font-size: 30px;
+    }
+    .menu2.bottomLeft {
+        left: 60px;
     }
 }
 
@@ -164,11 +164,8 @@
         margin-top: 70px;
         margin-left: 0px;
     }
-    .skills i {
-        font-size: 25px;
-    }
-    .skills1 p {
-        font-size: 30px;
+    .skills span {
+        font-size: 45px;
     }
 }
 
@@ -197,14 +194,14 @@
     .body-area3-div2 p {
         font-size: 42px;
     }
-    button {
-        left: 60px;
-    }
     .menu2.bottomLeft {
-        left: 60px;
+        left: 50px;
     }
     .skills-wrap {
         height: 720px;
+    }
+    .navBurger {
+        right: 6%;
     }
 }
 
@@ -260,12 +257,6 @@
         font-size: 35px;
         margin-bottom: 0px;
     }
-    .skills span {
-        font-size: 50px;
-    }
-    .skills1 p {
-        font-size: 30px;
-    }
 }
 
 @media only screen and (max-width : 550px) {
@@ -314,16 +305,11 @@
     .body-area3-div2 p {
         font-size: 32px;
     }
-    button {
-        left: 40px;
-        width: 32px;
-        height: 26px;
-    }
     .menu2.bottomLeft {
         left: 40px;
     }
     .skills span {
-        font-size: 45px;
+        font-size: 40px;
     }
 }
 
@@ -331,6 +317,9 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px){
+    .body-area2 {
+        margin-bottom: 8vh;
+    }
     .body-area3-div2 div {
         width: 240px;
     }
@@ -340,33 +329,44 @@
     .menu2.bottomLeft {
         visibility: hidden;
     }
-    .open .menu2.bottomLeft {
+    .locked .menu2.bottomLeft {
         visibility: visible;
-        -webkit-transition-delay: 0.75s;
-          transition-delay: 0.75s;
+        -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+        bottom: 0px;
+        top: 70px;
     }
-    nav ul li {
-        font-size: 35px!important;
+    .menu2 .share:hover.top .submenu li:nth-child(1) {
+        top: 51px;
     }
-    .body-area2 {
-        margin-bottom: 8vh;
+    .menu2 .share:hover.top .submenu li:nth-child(2) {
+        top: 102px;
     }
-    
+    .menu2 .share:hover.top .submenu li:nth-child(3) {
+        top: 153px;
+    }
+    .menu2 .share:hover.top .submenu li:nth-child(4) {
+        top: 204px;
+    }
+    .menu2 .share:hover.top .submenu li:nth-child(5) {
+        top: 255px;
+    }
 }
 
 
-@media only screen and (max-width : 450px) {
-    .skills-wrap {
-        height: 900px;
-    }
-}
 
 @media only screen and (max-width : 430px) {
     .body-area2-div1 p {
         width: 250px;
     }
+    .skills-wrap {
+        height: 900px;
+    }
     .footer-logo {
         margin-top: 10px;
+    }
+    .navBurger {
+        right: 8%;
     }
 } 
 
@@ -382,13 +382,6 @@
     }
     .body-area3-div2 div {
         margin-top: 40px;
-    }
-    nav ul li {
-        font-size: 30px!important;
-    }
-    button {
-        top: 60px;
-        left: 30px;
     }
     .skills1 div div img {
         width: 80px;
