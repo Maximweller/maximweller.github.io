@@ -1,75 +1,676 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>Zaqlushka.com</title>
+    <title>Ngames - магазин игр</title>
 	
-	<meta name="description" content="Max Well, front-end and back-end developer freelancer.">
-	<meta name="keywords" content="portfolio, front end, back end developer, html5, css3, js, jquery, php, responsive, web developer">
-    <meta name="author" content="Maxim Weller">
+	<meta name="description" content="Ngames – это интернет-магазин компьютерных игр и ключей активации для Steam, Origin, Uplay, Battle.net и других игровых платформ.">
+	<meta name="keywords" content="магазин компьютерных игр, купить дешевые игры по низким ценам">
+    <meta name="author" content="Ngames">
     
     <!-- IE compatibility -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<meta name="viewport" content="initial-scale=0.1">-->
     
     <!-- Favicons Links -->
-    <link type="image/png" rel="shortcut icon" href="#">
+    <link type="image/png" rel="shortcut icon" href="/assets/img/logos/favicon/favicon.png">
     
-    <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <!-- Normalize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
-    
-    <!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
 </head>
 <body>
     
-    <section class="jopa">
-        <a href="zaqlushka_eng.html">Eng</a><br>
-        <div>
-            <span>Сорян чел. Сайт в отключке, спит. <br> Приходи позже.</span>
-            <span>А пока можешь покекать.</span><br>
-            <a href="https://www.youtube.com/watch?v=ltaP5CyIL3g" target="_blank">Котики</a><br>
-            <a href="https://www.youtube.com/watch?v=HEaFpGDQheU" target="_blank">Вот еще</a><br>
-            <a href="https://www.youtube.com/watch?v=R28lU1Ua8J0" target="_blank">БОЛЬШЕ!</a><br>
-            <a href="https://www.youtube.com/watch?v=zcGOoDThC1E" target="_blank">Ище!</a><br>
+    <!-- Start Loading Section 
+	<div class="loading-wrapper">
+		<span class="loader"> -->
+		    <!--<span class="loader2"></span>-->
+	<!--	</span>
+	</div>
+	End Loading Section -->
+	
+	<header>
+        <span class="become_human">Alpha version</span>
+            <style>
+                .become_human {
+                    position: fixed;
+                    color: white;
+                    z-index: 100;
+                } 
+            </style>
+        <div class="header">
+            <div class="mycontainer">
+                <div class="header-container">
+                    <div class="header-1block">
+                        <a href="/index.html">
+                            <img src="/assets/img/logos/logo/Primary_logo.png" alt="Logo">
+                        </a>
+                        <a href="#">Гарантии</a>
+                        <a href="#">Поддержка</a>
+                        <a href="#">Отзывы</a>
+                        <ul class="header-social">
+                            <li><a href="#" target="_blank" class="vk"><i class="fa fa-vk"></i></a></li>
+                            <li><a href="#" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" target="_blank" class="telegram"><i class="fa fa-telegram"></i></a></li>
+                            <li><a href="#" target="_blank" class="prmail"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="header-2block">
+                        <ul>
+                            <li>
+                                <i class="fa fa-th-large" aria-hidden="true"></i>
+                            </li>
+                            <li><a href="#">Регистрация</a></li>
+                            <li><a href="#">Вход</a></li>
+                        </ul>    
+                    </div>
+                </div>
+            </div>   
         </div>
-        <br>
-        <br>
-        <div>
-            <span>Можешь еще аудиокнижку послушать!</span><br>
-            <a href="https://www.youtube.com/watch?v=poOXk9W7Xus&t=7025s" target="_blank">Вот</a>
+    </header>
+    
+    <section class="mycarousel">
+        <div class="header2">
+            <div class="mycontainer">
+                <div class="header2-container">
+                    <ul>
+                        <li><a href="/index.html">Главная</a></li>
+                        <li><a href="#">Скидки</a></li>
+                        <li><a href="#">Новинки</a></li>
+                        <li><a href="#">Лидеры продаж</a></li>
+                        <li><a href="#">Предзаказ</a></li>
+                        <li class="header2-lastli">
+                            <div class="wrapper8">
+                                <div class="container8">
+                                    <input type="text" class="input" placeholder="Поиск">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide mycontainer2" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="#"><img class="d-block w-100" src="assets/img/games_carousel/welcome.jpg" alt="First slide"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5><a href="#">Ngames начал свою деятельность! УРА!</a></h5>
+                        <p>Добро пожаловать!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img class="d-block w-100" src="assets/img/games_carousel/crew_2.jpeg" alt="Second slide"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5><a href="#">Уже в продаже! Налетай!</a></h5>
+                        <p>1500 <i class="fa fa-rub" aria-hidden="true"></i></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img class="d-block w-100" src="assets/img/games_carousel/crash_bandicoot_trilogy.jpg" alt="Third slide"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5><a href="#">Всеобщий любимец вернулся!</a></h5>
+                        <p>1300 <i class="fa fa-rub" aria-hidden="true"></i></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img class="d-block w-100" src="assets/img/games_carousel/gta_5.jpg" alt="Fourth slide"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5><a href="#">GTA 5</a></h5>
+                        <p>800 <i class="fa fa-rub" aria-hidden="true"></i></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img class="d-block w-100" src="assets/img/games_carousel/rocket_league.jpg" alt="Fifth slide"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5><a href="#">Rocket League</a></h5>
+                        <p>300 <i class="fa fa-rub" aria-hidden="true"></i></p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </section>
-    <style>
-        .jopa {
-            width: 100%;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .jopa div {
-            display: flex;
-            flex-direction: column;
-        }
-        .jopa a {
-            font-size: 30px;
-        }
-        .jopa span {
-            font-size: 30px;
-        }
-    
-    </style>
+    <section>
+        <div class="mycontainer3">
+            <div class="bar">
+                <div class="bar-container">
+                    <div><span>Поиск по жанру</span></div>
+                    <ul>
+                        <li><a href="#">Экшн</a></li>
+                        <li><a href="#">Гонки</a></li>
+                        <li><a href="#">Инди</a></li>
+                        <li><a href="#">Приключенческая</a></li>
+                        <li><a href="#">Симулятор</a></li>
+                        <li><a href="#">Спортивная</a></li>
+                        <li><a href="#">Стратегия</a></li>
+                        <li><a href="#">Казуальная</a></li>
+                    </ul>
+                    <div><span>Категории</span></div>
+                    <ul>
+                        <li><a href="#">Одиночная</a></li>
+                        <li><a href="#">Кооператив</a></li>
+                        <li><a href="#">Мультиплеер</a></li>
+                        <li><a href="#">Ранний доступ</a></li>
+                        <li><a href="#">Карточки</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="table">
+                <p>Главные Скидки</p>
+                <div class="table-content">
+                    <div class="table-content-item">
+                        <a href="games/unravel2.html"><img src="assets/img/games_table/Unravel_2.jpg" alt="#"></a>
+                        <div class="table-content-discount">
+                            <span>-20%</span>
+                        </div>
+                        <div class="table-content-price">
+                            <span>1700 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                            <span>2100</span>
+                        </div>
+                    </div>
+                    <div class="table-content-item">
+                        <a href="#"><img src="assets/img/games_table/Dying_light.jpg" alt="#"></a>
+                        <div class="table-content-discount">
+                            <span>-63%</span>
+                        </div>
+                        <div class="table-content-price">
+                            <span>400 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                            <span>1100</span>
+                        </div>
+                    </div>
+                    <div class="table-content-item">
+                        <a href="#"><img src="assets/img/games_table/cs.jpg" alt="#"></a>
+                        <div class="table-content-discount">
+                            <span>-28%</span>
+                        </div>
+                        <div class="table-content-price">
+                            <span>300 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                            <span>420</span>
+                        </div>
+                    </div>
+                    <div class="table-content-item">
+                        <a href="#"><img src="assets/img/games_table/The_forest.jpg" alt="#"></a>
+                        <div class="table-content-discount">
+                            <span>-32%</span>
+                        </div>
+                        <div class="table-content-price">
+                            <span>350 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                            <span>520</span>
+                        </div>
+                    </div>
+                    <div class="table-content-item">
+                        <a href="#"><img src="assets/img/games_table/batman_arkhamknight.jpg" alt="#"></a>
+                        <div class="table-content-discount">
+                            <span>-54%</span>
+                        </div>
+                        <div class="table-content-price">
+                            <span>500 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                            <span>1100</span>
+                        </div>
+                    </div>
+                    <div class="table-content-item">
+                        <a href="#"><img src="assets/img/games_table/Dark_souls_remastered.jpg" alt="#"></a>
+                        <div class="table-content-discount">
+                            <span>-17%</span>
+                        </div>
+                        <div class="table-content-price">
+                            <span>999 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                            <span>1200</span>
+                        </div>
+                    </div>
+                    <div class="table-content-item">
+                        <a href="#"><img src="assets/img/games_table/Far_cry_5.jpg" alt="#"></a>
+                        <div class="table-content-discount">
+                            <span>-16%</span>
+                        </div>
+                        <div class="table-content-price">
+                            <span>1600 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                            <span>1900</span>
+                        </div>
+                    </div>
+                    <div class="table-content-item">
+                        <a href="#"><img src="assets/img/games_table/Pubg.jpg" alt="#"></a>
+                        <div class="table-content-discount">
+                            <span>-62%</span>
+                        </div>
+                        <div class="table-content-price">
+                            <span>600 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                            <span>1600</span>
+                        </div>
+                    </div>
+                    <div class="table-content-item">
+                        <a href="#"><img src="assets/img/games_table/Surviving_mars.jpg" alt="#"></a>
+                        <div class="table-content-discount">
+                            <span>-53%</span>
+                        </div>
+                        <div class="table-content-price">
+                            <span>471 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                            <span>1010</span>
+                        </div>
+                    </div>
+                    <div class="table-content-item">
+                        <a href="#"><img src="assets/img/games_table/Witcher_3.jpg" alt="#"></a>
+                        <div class="table-content-discount">
+                            <span>-44%</span>
+                        </div>
+                        <div class="table-content-price">
+                            <span>899 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                            <span>1600</span>
+                        </div>
+                    </div>
+                    <div class="table-content-item">
+                        <a href="#"><img src="assets/img/games_table/Dark_souls_remastered.jpg" alt="#"></a>
+                        <div class="table-content-discount">
+                            <span>-16%</span>
+                        </div>
+                        <div class="table-content-price">
+                            <span>999 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                            <span>1200</span>
+                        </div>
+                    </div>
+                    <div class="table-content-item">
+                        <a href="#"><img src="assets/img/games_table/fallout4_goty.jpg" alt="#"></a>
+                        <div class="table-content-discount">
+                            <span>-56%</span>
+                        </div>
+                        <div class="table-content-price">
+                            <span>1700 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                            <span>3900</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="more"><a href="#">Больше скидок</a></p>
+            </div>
+        </div>
+    </section>
+    <section class="section3">
+        <div class="mycontainer3">
+            <div class="table2">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Новинки</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="liders-tab" data-toggle="tab" href="#liders" role="tab" aria-controls="liders" aria-selected="false">Лидеры продаж</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pre-order-tab" data-toggle="tab" href="#pre-order" role="tab" aria-controls="pre-order" aria-selected="false">Предзаказ</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        
+                        
+                        <div class="table-content2">
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/crash_bandicoot_trilogy.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span></span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>1300 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/crew_2.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span></span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>999 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/vampyr.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span></span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>2300 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/Pubg.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-62%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>600 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>1600</span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/The_forest.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-32%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>350 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>520</span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/jurassic_world_evolution.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span></span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>3200 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/Far_cry_5.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-16%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>1600 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>1900</span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/Unravel_2.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-20%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>1700 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>2100</span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/house_flipper.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span></span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>500 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/Dark_souls_remastered.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-16%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>999 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>1200</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="more"><a href="#">Больше новинок</a></p>
+                    
+                    
+                    </div>
+                    
+                    <div class="tab-pane fade" id="liders" role="tabpanel" aria-labelledby="liders-tab">
+                        
+                        
+                        <div class="table-content table-content2">
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/Pubg.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-62%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>600 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>1600</span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/fallout4_goty.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-56%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>1700 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>3900</span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/Far_cry_5.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-16%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>1600 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>1900</span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/cs.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-28%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>300 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>420</span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/The_forest.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-32%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>350 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>520</span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/Dark_souls_remastered.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-16%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>999 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>1200</span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/crew_2.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span></span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>999 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/vampyr.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span></span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>2300 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/Witcher_3.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-44%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>899 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>1600</span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/Unravel_2.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-20%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>1700 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>2100</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="more"><a href="#">Лидеры продаж</a></p>
+                        
+                        
+                    </div>
+                    
+                    <div class="tab-pane fade" id="pre-order" role="tabpanel" aria-labelledby="pre-order-tab">
+                        
+                        
+                        <div class="table-content table-content2">
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/Unravel_2.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-20%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>1700 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>2100</span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/Far_cry_5.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-16%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>1600 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>1900</span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/The_forest.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-32%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>350 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>520</span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/Dark_souls_remastered.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-17%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>999 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>1200</span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/Surviving_mars.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-53%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>471 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>1000</span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/cs.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-28%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>300 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>420</span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/Witcher_3.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-44%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>899 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>1600</span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/Dark_souls_remastered.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-16%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>999 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>1200</span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/Unravel_2.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-20%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>1700 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>2100</span>
+                                </div>
+                            </div>
+                            <div class="table-content2-item">
+                                <a href="#"><img src="assets/img/games_table/Pubg.jpg" alt="#"></a>
+                                <div class="table-content-discount">
+                                    <span>-62%</span>
+                                </div>
+                                <div class="table-content-price">
+                                    <span>600 <i class="fa fa-rub" aria-hidden="true"></i></span>
+                                    <span>1600</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="more"><a href="#">Скоро выйдут</a></p>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="mycontainer">
+            <hr color="white">
+            <i class="fa fa-copyright" aria-hidden="true"></i> 2018 <a href="/index.html">Ngames</a> (Тестовое название). Все права защищены. Только официальный товар. Все названия игр и компаний, логотипы и торговые марки являются собственностью соответствующих владельцев в разных странах.
+        </div>
+    </footer>
 	
-		
+	
+	
+	
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/media.css">
+	<link rel="stylesheet" href="assets/libs/search-form/css/style.css">
+	<script src="assets/libs/jquery/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<script src="assets/js/common.js"></script>
+	<script src="assets/libs/search-form/js/index.js"></script> 
 </body>
-
 </html>
