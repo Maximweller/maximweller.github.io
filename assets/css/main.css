@@ -18,7 +18,6 @@ a {
 }
 a:hover {
     text-decoration: none!important;
-    color: white!important;
 }
 
 .mycontainer {
@@ -41,6 +40,9 @@ a:hover {
     color: white;
 }
 .header a {
+    color: white;
+}
+.header a:hover {
     color: white;
 }
 .header-container {
@@ -70,6 +72,10 @@ a:hover {
 .header-social li {
     width: 50px;
 }
+.vk:hover {color: #4A76A8!important;}
+.twitter:hover {color: #1DA1F2!important;}
+.telega:hover {color: #35ACE0!important;}
+.prmail:hover {color: #586FB3!important;}
 
 .header-2block {
     
@@ -193,6 +199,9 @@ a:hover {
     color: #C6C4C2;
     margin-left: 20px;
 }
+.bar-container ul li a:hover {
+    color: white;
+}
 
 .table {
     margin-left: 20px;
@@ -208,7 +217,6 @@ a:hover {
 .table-content-item {
     position: relative;
     width: 290px;
-    height: 163.5px;
     margin-right: 7px;
     margin-bottom: 7px;
 }
@@ -220,8 +228,8 @@ a:hover {
 }
 .table-content-discount {
     position: absolute;
-    right: 0px;
-    top: 0px;
+    left: 0px;
+    bottom: 0px;
     background-color: #8BB006;
     width: 55px;
     display: flex;
@@ -264,6 +272,9 @@ a:hover {
     text-decoration: none;
     color: #C6C4C2;
 }
+.more a:hover {
+    color: white;
+}
 
 .section3 {
     margin-top: 50px;
@@ -271,12 +282,11 @@ a:hover {
 .table2 {
     width: 100%;
 }
-.nav-item a {
+.nav-link {
     color: #C6C4C2;
 }
-.active:hover {
-    color: #495057!important;
-    cursor: default;
+.nav-link:hover {
+    color: white;
 }
 .nav {
     margin-bottom: 30px!important;
@@ -300,20 +310,20 @@ a:hover {
 .table-content2-item:nth-child(4n) {
     margin-right: 0px;
 }
-.table-content-discount {
+.table-content2-discount {
     position: absolute;
-    right: 0px;
-    top: 0px;
+    left: 0px;
+    bottom: 0px;
     background-color: #8BB006;
-    width: 45px;
+    width: 48px;
     display: flex;
     justify-content: center;
 }
-.table-content-discount span {
+.table-content2-discount span {
     font-weight: bold;
-    font-size: .9rem;
+    font-size: 1rem;
 }
-.table-content-price {
+.table-content2-price {
     position: absolute;
     display: flex;
     flex-direction: column-reverse;
@@ -323,11 +333,11 @@ a:hover {
     padding-left: 8px;
     padding-right: 8px;
 }
-.table-content-price span {
+.table-content2-price span {
     color: #81ecec;
-    font-size: .9rem;
+    font-size: .8rem;
 }
-.table-content-price span:nth-child(2) {
+.table-content2-price span:nth-child(2) {
     text-decoration: line-through;
     font-size: .7rem;
     color: #C6C4C2;

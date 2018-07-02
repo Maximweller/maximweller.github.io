@@ -67,6 +67,10 @@ a:hover {
 .header-social li {
     width: 50px;
 }
+.vk:hover {color: #4A76A8!important;}
+.twitter:hover {color: #1DA1F2!important;}
+.telega:hover {color: #35ACE0!important;}
+.prmail:hover {color: #586FB3!important;}
 
 .header-2block {
     
