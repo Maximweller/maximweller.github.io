@@ -137,6 +137,10 @@ a:hover {
     display: flex;
 } 
 
+.carousel-indicators li {
+    height: 6px!important;
+    border-radius: 2px;
+}
 .carousel-item p {
     
 }
@@ -163,15 +167,14 @@ a:hover {
 }
 
 .bar {
-    width: 22%;
-    height: 650px;
-    background-color: #192A56;
+    width: 18%;
+    height: 730px;
+    
 }
 .bar-container {
     width: 100%;
     height: 100%;
-    margin-top: 80px;
-    background: linear-gradient(to bottom, #192A56, #1E3061);
+    margin-top: 57px;
 }
 .bar-container div {
     display: flex;
@@ -183,7 +186,6 @@ a:hover {
 }
 .bar-container div span {
     color: white;
-    margin-left: 20px;
 }
 .bar-container ul {
     margin: 0;
@@ -193,65 +195,69 @@ a:hover {
 .bar-container ul li {
     display: flex;
     margin-top: 5px;
+    margin-left: 8px;
 }
 .bar-container ul li a {
     text-decoration: none;
     color: #C6C4C2;
-    margin-left: 20px;
 }
 .bar-container ul li a:hover {
     color: white;
 }
 
 .table {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .table p:first-child {
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 .table-content {
     display: flex;
     flex-wrap: wrap;
 }
+.tc2 {
+    margin-top: 40px;
+}
 .table-content-item {
     position: relative;
-    width: 290px;
-    margin-right: 7px;
-    margin-bottom: 7px;
+    width: 295px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 .table-content-item:nth-child(3n) {
     margin-right: 0px;
 }
 .table-content-item img {
-    width: 290px;
+    width: 295px;
 }
 .table-content-discount {
     position: absolute;
     left: 0px;
     bottom: 0px;
     background-color: #8BB006;
-    width: 55px;
+    width: 50px;
     display: flex;
     justify-content: center;
 }
 .table-content-discount span {
-    font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 .table-content-price {
     position: absolute;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    align-items: center;
     right: 0px;
     bottom: 0px;
-    background-color: rgba(0, 0, 0, .8);
-    padding-left: 8px;
-    padding-right: 8px;
+    background-color: rgba(0, 0, 0, .9);
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .table-content-price span {
-    color: #81ecec;
-    font-size: .9rem;
+    color: #9BDBE5;
+    font-size: .8rem;
 }
 .table-content-price span:nth-child(2) {
     text-decoration: line-through;
@@ -259,14 +265,16 @@ a:hover {
     color: #C6C4C2;
     display: flex;
     justify-content: center;
+    margin-right: 5px;
 }
-
 
 
 .more {
     margin: 0;
     margin-top: 20px;
     font-size: 1.1rem;
+    display: flex;
+    justify-content: flex-end;
 }
 .more a {
     text-decoration: none;
@@ -277,7 +285,7 @@ a:hover {
 }
 
 .section3 {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .table2 {
     width: 100%;
@@ -315,27 +323,27 @@ a:hover {
     left: 0px;
     bottom: 0px;
     background-color: #8BB006;
-    width: 48px;
+    width: 42px;
     display: flex;
     justify-content: center;
 }
 .table-content2-discount span {
-    font-weight: bold;
-    font-size: 1rem;
+    font-size: .9rem;
 }
 .table-content2-price {
     position: absolute;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    align-items: center;
     right: 0px;
     bottom: 0px;
-    background-color: rgba(0, 0, 0, .8);
-    padding-left: 8px;
-    padding-right: 8px;
+    background-color: rgba(0, 0, 0, .9);
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .table-content2-price span {
-    color: #81ecec;
-    font-size: .8rem;
+    color: #9BDBE5;
+    font-size: .7rem;
 }
 .table-content2-price span:nth-child(2) {
     text-decoration: line-through;
@@ -343,6 +351,7 @@ a:hover {
     color: #C6C4C2;
     display: flex;
     justify-content: center;
+    margin-right: 5px;
 }
 
 
@@ -350,13 +359,30 @@ a:hover {
 
 
 footer {
-    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+footer div {
+    color: #C6C4C2;
+}
+footer div img {
+    width: 70px;
+}
+footer div a {
+    color: #C6C4C2;
+}
+footer div a:hover {
     color: white;
 }
-
-
-
-
-
-
-
+footer div div:last-child a {
+    margin-right: 40px;
+}
+footer div div:last-child a:nth-child(5) {
+    margin-right: 30px;
+}
+footer div div:last-child a:nth-child(6) {
+    margin-right: 30px;
+}
+footer div div:last-child a:nth-child(7) {
+    margin-right: 30px;
+}
