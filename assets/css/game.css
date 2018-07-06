@@ -51,7 +51,7 @@ a:hover {
     margin-right: auto;
 }
 .header-1block a:first-child img {
-    width: 100px;
+    width: 90px;
 }
 .header-1block a {
     margin-right: 40px;
@@ -285,7 +285,7 @@ footer div {
     color: #C6C4C2;
 }
 footer div img {
-    width: 70px;
+    width: 50px;
 }
 footer div a {
     color: #C6C4C2;

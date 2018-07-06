@@ -26,12 +26,12 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
 }
-.mycontainer2 {
+.mycontainer3 {
     width: 1100px;
     margin-left: auto;
     margin-right: auto;
-}
-
+    display: flex;
+} 
 
 .header {
     width: 100%;
@@ -127,49 +127,13 @@ a:hover {
     color: white!important;
 }
 .mycarousel {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
-.mycontainer3 {
-    width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-} 
-
-.carousel-indicators li {
-    height: 6px!important;
-    border-radius: 2px;
-}
-.carousel-item p {
-    
-}
-.carousel-item h5 a {
-    text-decoration: none;
-    color: white;
-}
-.carousel-control-prev {
-    justify-content: flex-start!important;
-}
-.carousel-control-next {
-    justify-content: flex-end!important;
-}
-
-.carousel-control-prev-icon {
-    width: 30px!important;
-    height: 30px!important;
-    margin-left: 30px;
-}
-.carousel-control-next-icon {
-    width: 30px!important;
-    height: 30px!important;
-    margin-right: 30px;
-}
 
 .bar {
-    width: 18%;
-    height: 730px;
-    
+    width: 20%;
+    height: 750px;
 }
 .bar-container {
     width: 100%;
@@ -195,7 +159,7 @@ a:hover {
 .bar-container ul li {
     display: flex;
     margin-top: 5px;
-    margin-left: 8px;
+    margin-left: 10px;
 }
 .bar-container ul li a {
     text-decoration: none;
@@ -215,57 +179,69 @@ a:hover {
 }
 .table-content {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
 }
-.tc2 {
-    margin-top: 40px;
-}
 .table-content-item {
-    position: relative;
-    width: 295px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 7px;
+    background-color: #192A56;
+    display: flex;
+    align-items: center;
 }
-.table-content-item:nth-child(3n) {
-    margin-right: 0px;
+.table-content-item:hover {
+    background-color: #171A35;
 }
 .table-content-item img {
-    width: 295px;
+    width: 110px;
+}
+.table-content-name {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.table-content-name a {
+    color: white;
+}
+.table-content-name a:nth-child(2) {
+    font-size: .8rem;
+    color: #C6C4C2;
+}
+.table-content-name a:first-child:hover {
+    color: #C6C4C2;
+}
+.table-content-name a:nth-child(2):hover {
+    color: white;
 }
 .table-content-discount {
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
     background-color: #8BB006;
-    width: 50px;
+    width: 45px;
     display: flex;
     justify-content: center;
+    margin-right: 100px;
+    margin-left: auto;
 }
 .table-content-discount span {
-    font-size: 1rem;
+    font-size: .9rem;
+    color: black;
 }
 .table-content-price {
-    position: absolute;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
     align-items: center;
-    right: 0px;
-    bottom: 0px;
-    background-color: rgba(0, 0, 0, .9);
     padding-left: 5px;
     padding-right: 5px;
+    margin-right: 10px;
 }
 .table-content-price span {
     color: #9BDBE5;
     font-size: .8rem;
+    width: 45px;
 }
 .table-content-price span:nth-child(2) {
     text-decoration: line-through;
     font-size: .8rem;
     color: #C6C4C2;
-    display: flex;
-    justify-content: center;
-    margin-right: 5px;
 }
 
 
@@ -283,77 +259,6 @@ a:hover {
 .more a:hover {
     color: white;
 }
-
-.section3 {
-    margin-top: 40px;
-}
-.table2 {
-    width: 100%;
-}
-.nav-link {
-    color: #C6C4C2;
-}
-.nav-link:hover {
-    color: white;
-}
-.nav {
-    margin-bottom: 30px!important;
-}
-
-
-.table-content2 {
-    display: flex;
-    flex-wrap: wrap;
-}
-.table-content2-item img {
-    width: 220px;
-}
-.table-content2-item {
-    position: relative;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    width: 220px;
-    height: 124px;
-}
-.table-content2-item:nth-child(4n) {
-    margin-right: 0px;
-}
-.table-content2-discount {
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    background-color: #8BB006;
-    width: 42px;
-    display: flex;
-    justify-content: center;
-}
-.table-content2-discount span {
-    font-size: .9rem;
-}
-.table-content2-price {
-    position: absolute;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    right: 0px;
-    bottom: 0px;
-    background-color: rgba(0, 0, 0, .9);
-    padding-left: 5px;
-    padding-right: 5px;
-}
-.table-content2-price span {
-    color: #9BDBE5;
-    font-size: .7rem;
-}
-.table-content2-price span:nth-child(2) {
-    text-decoration: line-through;
-    font-size: .7rem;
-    color: #C6C4C2;
-    display: flex;
-    justify-content: center;
-    margin-right: 5px;
-}
-
 
 
 
