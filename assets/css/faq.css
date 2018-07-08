@@ -1,0 +1,133 @@
+@import url(loader.css);
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: 'Open Sans', sans-serif!important;
+    background: linear-gradient(to bottom, #273c75, #192a56)!important;
+}
+a {
+    transition: .3s ease-out;
+    -o-transition: .3s ease-out;
+    -moz-transition: .3s ease-out;
+    -webkit-transition: .3s ease-out;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none!important;
+}
+
+.mycontainer {
+    height: 100%;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #171A35;
+    color: white;
+}
+.header-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-container img {
+    width: 120px;
+}
+section {
+    margin-top: 50px;
+}
+.page-header h1 {
+    color: white;
+    font-size: 1.8rem;
+    margin: 0;
+}
+.content {
+    display: flex;
+    margin-top: 30px;
+    border-bottom: 1px solid #C6C4C2;
+}
+.content:first-child {
+    margin-top: 70px;
+}
+.content:last-child {
+    border-bottom: 0;
+}
+.content:hover {
+    cursor: pointer;
+}
+.content:hover i,
+.content:hover p,
+.content:hover h5 {
+    color: #C6C4C2;
+}
+.content-img {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-img {
+    font-size: 2rem;
+}
+.content-img i {
+    color: #e67e22;
+}
+.content-text {
+    margin-left: 40px;
+    width: 900px;
+}
+.content-text h5 {
+    color: white;
+    margin-bottom: 15px;
+}
+.content-text p {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+footer div {
+    color: #C6C4C2;
+}
+footer div img {
+    width: 50px;
+}
+footer div a {
+    color: #C6C4C2;
+}
+footer div a:hover {
+    color: white;
+}
+footer div div:last-child a {
+    margin-right: 40px;
+}
+footer div div:last-child a:nth-child(5) {
+    margin-right: 30px;
+}
+footer div div:last-child a:nth-child(6) {
+    margin-right: 30px;
+}
+footer div div:last-child a:nth-child(7) {
+    margin-right: 30px;
+}
