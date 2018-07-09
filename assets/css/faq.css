@@ -131,3 +131,7 @@ footer div div:last-child a:nth-child(6) {
 footer div div:last-child a:nth-child(7) {
     margin-right: 30px;
 }
+.vk:hover {color: #4A76A8!important;}
+.twitter:hover {color: #1DA1F2!important;}
+.telega:hover {color: #35ACE0!important;}
+.prmail:hover {color: #586FB3!important;}
