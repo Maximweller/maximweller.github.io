@@ -219,13 +219,13 @@ a:hover {
     flex-wrap: wrap;
 }
 .tc2 {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .table-content-item {
     position: relative;
-    width: 295px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    width: 293px;
+    margin-right: 12px;
+    margin-bottom: 14px;
 }
 .table-content-item:nth-child(3n) {
     margin-right: 0px;
