@@ -223,8 +223,8 @@ a:hover {
 }
 .table-content-item {
     position: relative;
-    width: 293px;
-    margin-right: 12px;
+    width: 295px;
+    margin-right: 10px;
     margin-bottom: 14px;
 }
 .table-content-item:nth-child(3n) {
