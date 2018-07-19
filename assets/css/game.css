@@ -151,7 +151,7 @@ a:hover {
 .price {
     display: flex;
     flex-direction: column-reverse;
-    margin-left: auto;
+    margin-left: 60px;
     margin-right: auto;
 }
 .price span {
@@ -166,7 +166,7 @@ a:hover {
     text-decoration: line-through;
 }
 .buy0 {
-    margin-right: auto;
+    margin-right: 60px;
     display: flex;
     align-items: center
 }
@@ -182,6 +182,7 @@ a:hover {
 .buy a {
     color: white;
     font-size: 1.6rem;
+    font-weight: bold;
     width: 100%;
     height: 100%;
     display: flex;
@@ -194,7 +195,7 @@ a:hover {
 
 
 .desc {
-    margin-left: 65px;
+    margin-left: 75px;
     margin-top: 35px;
 }
 .desc p {
@@ -253,7 +254,7 @@ a:hover {
     width: 430px;
 }
 .block2_2_wrap {
-    margin-left: 65px;
+    margin-left: 75px;
     width: 300px;
 }
 .block2_2_wrap h1 {
