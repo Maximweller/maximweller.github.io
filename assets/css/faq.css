@@ -22,7 +22,7 @@ a:hover {
 
 .mycontainer {
     height: 100%;
-    width: 1000px;
+    width: 1060px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -30,7 +30,7 @@ a:hover {
 
 .header {
     width: 100%;
-    height: 100px;
+    height: 120px;
     background-color: #171A35;
     color: white;
 }
@@ -47,6 +47,13 @@ a:hover {
 section {
     margin-top: 50px;
 }
+.page-content {
+    margin-top: 70px;
+}
+.page-header {
+    display: flex;
+    justify-content: center;
+}
 .page-header h1 {
     color: white;
     font-size: 1.8rem;
@@ -54,11 +61,9 @@ section {
 }
 .content {
     display: flex;
-    margin-top: 30px;
+    margin-top: 40px;
+    padding-bottom: 20px;
     border-bottom: 1px solid #C6C4C2;
-}
-.content:first-child {
-    margin-top: 70px;
 }
 .content:last-child {
     border-bottom: 0;
@@ -72,19 +77,18 @@ section {
     color: #C6C4C2;
 }
 .content-img {
-    width: 60px;
+    width: 80px;
+    padding-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.content-img {
-    font-size: 2rem;
-}
 .content-img i {
-    color: #e67e22;
+    font-size: 2rem;
+    color: #7CCDF1;
 }
 .content-text {
-    margin-left: 40px;
+    margin-left: 30px;
     width: 900px;
 }
 .content-text h5 {
@@ -104,32 +108,46 @@ section {
 
 
 footer {
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 20px;
-}
-footer div {
-    color: #C6C4C2;
-}
-footer div img {
-    width: 50px;
-}
-footer div a {
-    color: #C6C4C2;
-}
-footer div a:hover {
     color: white;
 }
-footer div div:last-child a {
-    margin-right: 40px;
+.footer-div {
+    display: flex;
+    margin-top: 25px;
 }
-footer div div:last-child a:nth-child(5) {
-    margin-right: 30px;
+.footer-div1 {
+    width: 60%;
 }
-footer div div:last-child a:nth-child(6) {
-    margin-right: 30px;
+.footer-div1 span {
+    font-size: .8rem;
 }
-footer div div:last-child a:nth-child(7) {
-    margin-right: 30px;
+.footer-div1 img {
+    width: 50px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.footer-div2 {
+    width: 35%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.footer-div2 a {
+    color: white;
+}
+.footer-div2 a:hover {
+    color: #C6C4C2;
+}
+.footer-div2-social {
+    margin-top: 10px;
+}
+.footer-div2-social a {
+    margin-right: 20px;
+}
+.footer-div2-social a:last-child {
+    margin-right: 0px;
 }
 .vk:hover {color: #4A76A8!important;}
 .twitter:hover {color: #1DA1F2!important;}

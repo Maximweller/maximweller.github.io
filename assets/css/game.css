@@ -23,7 +23,7 @@ a:hover {
 
 .mycontainer {
     height: 100%;
-    width: 1100px;
+    width: 1160px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -31,7 +31,7 @@ a:hover {
 
 .header {
     width: 100%;
-    height: 70px;
+    height: 60px;
     background-color: #171A35;
     color: white;
 }
@@ -51,7 +51,7 @@ a:hover {
     margin-right: auto;
 }
 .header-1block a:first-child img {
-    width: 90px;
+    width: 80px;
 }
 .header-1block a {
     margin-right: 40px;
@@ -140,6 +140,24 @@ a:hover {
     width: 650px;
     height: 365.5px;
 }
+.genre {
+    margin-top: 30px;
+}
+.genre p {
+    margin: 0;
+    margin-bottom: 5px;
+    color: white;
+}
+.genre p a {
+    text-decoration: none;
+    color: white;
+}
+.genre p a:hover {
+    opacity: .8;
+}
+.genre b {
+    margin-right: 10px;
+}
 
 .block1_2 {
     width: 100%;
@@ -151,7 +169,7 @@ a:hover {
 .price {
     display: flex;
     flex-direction: column-reverse;
-    margin-left: 60px;
+    margin-left: 70px;
     margin-right: auto;
 }
 .price span {
@@ -166,7 +184,7 @@ a:hover {
     text-decoration: line-through;
 }
 .buy0 {
-    margin-right: 60px;
+    margin-right: 70px;
     display: flex;
     align-items: center
 }
@@ -195,8 +213,8 @@ a:hover {
 
 
 .desc {
-    margin-left: 75px;
-    margin-top: 35px;
+    margin-left: 110px;
+    margin-top: 82px;
 }
 .desc p {
     margin: 0;
@@ -204,12 +222,11 @@ a:hover {
     padding-left: 10px;
     border-radius: 5px;
 }
-.desc p:nth-child(2),
-.desc p:nth-child(4),
-.desc p:nth-child(6),
+.desc p:nth-child(1),
+.desc p:nth-child(3),
+.desc p:nth-child(5),
 .desc p:nth-child(7),
-.desc p:nth-child(9),
-.desc p:nth-child(11) {
+.desc p:nth-child(9) {
     background-color: #171A35;
 }
 
@@ -232,7 +249,7 @@ a:hover {
 
 
 .section3 {
-    margin-top: 60px;
+    margin-top: 50px;
 }
 .block2 {
     display: flex;
@@ -254,7 +271,7 @@ a:hover {
     width: 430px;
 }
 .block2_2_wrap {
-    margin-left: 75px;
+    margin-left: 110px;
     width: 300px;
 }
 .block2_2_wrap h1 {
@@ -281,28 +298,42 @@ a:hover {
 footer {
     margin-top: 40px;
     margin-bottom: 20px;
-}
-footer div {
-    color: #C6C4C2;
-}
-footer div img {
-    width: 50px;
-}
-footer div a {
-    color: #C6C4C2;
-}
-footer div a:hover {
     color: white;
 }
-footer div div:last-child a {
-    margin-right: 40px;
+.footer-div {
+    display: flex;
+    margin-top: 25px;
 }
-footer div div:last-child a:nth-child(5) {
-    margin-right: 30px;
+.footer-div1 {
+    width: 60%;
 }
-footer div div:last-child a:nth-child(6) {
-    margin-right: 30px;
+.footer-div1 span {
+    font-size: .8rem;
 }
-footer div div:last-child a:nth-child(7) {
-    margin-right: 30px;
+.footer-div1 img {
+    width: 50px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.footer-div2 {
+    width: 35%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.footer-div2 a {
+    color: white;
+}
+.footer-div2 a:hover {
+    color: #C6C4C2;
+}
+.footer-div2-social {
+    margin-top: 10px;
+}
+.footer-div2-social a {
+    margin-right: 20px;
+}
+.footer-div2-social a:last-child {
+    margin-right: 0px;
 }
