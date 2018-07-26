@@ -15,5 +15,3 @@ $(window).on('load', function () {
 
 
 
-
-
