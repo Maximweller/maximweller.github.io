@@ -195,7 +195,7 @@ a:hover {
 .bar-container ul li {
     display: flex;
     margin-top: 5px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .bar-container ul li a {
     text-decoration: none;
@@ -218,7 +218,7 @@ a:hover {
     flex-wrap: wrap;
 }
 .tc2 {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .table-content-item {
     position: relative;
@@ -314,7 +314,7 @@ a:hover {
     margin-right: 0px;
     margin-bottom: 0px;
     width: 193px;
-    height: 109px;
+    height: 108.5px;
 }
 .table-content2-discount {
     position: absolute;

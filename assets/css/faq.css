@@ -22,7 +22,7 @@ a:hover {
 
 .mycontainer {
     height: 100%;
-    width: 1060px;
+    width: 1160px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -71,11 +71,6 @@ section {
 .content:hover {
     cursor: pointer;
 }
-.content:hover i,
-.content:hover p,
-.content:hover h5 {
-    color: #C6C4C2;
-}
 .content-img {
     width: 80px;
     padding-bottom: 20px;
@@ -99,16 +94,29 @@ section {
     color: white;
 }
 
-
-
-
-
+.accordion {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.card-header {
+    background-color: #25396F!important;
+}
+.btn {
+    text-decoration: none;
+    color: white!important;
+}
+.btn:hover {
+    text-decoration: none!important;
+}
+.btn:visited {
+    text-decoration: none!important;
+}
 
 
 
 
 footer {
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 20px;
     color: white;
 }
