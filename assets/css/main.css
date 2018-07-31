@@ -112,6 +112,7 @@ a:hover {
 }
 .header2 ul li {
     margin-right: 70px;
+    
 }
 .header2 ul li:nth-child(5) {
     margin-right: auto;
