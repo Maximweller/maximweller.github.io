@@ -1,0 +1,101 @@
+.body-area3 {
+    background: linear-gradient(to right, #0fbcf9 50%, #F8F8F8 50%);
+    height: 85vh;
+    width: 100%;
+    margin-bottom: 7.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body-area3-div1 {
+    height: 100%;
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.body-area3-div1 div {
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.body-area3-div1 p {
+    color: #F8F8F8;
+    margin: 0;
+    font-size: 110px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.body-area3-div1 span {
+    color: #F8F8F8;
+    margin: 0px;
+    margin-right: 6px;
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.body-area3-div2 {
+    height: 100%;
+    width: 50%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.body-area3-div2 div {
+    width: 450px;
+    margin: 0px;
+    margin-left: 80px;
+}
+.body-area3-div2 p {
+    color: #0fbcf9;
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.body-area3-div2 p:first-child {
+    font-weight: bold;
+    margin-top: 0px;
+}
+.body-area3-div2 p:nth-child(2) {
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.body-area3-div2 div span {
+    color: #0fbcf9;
+    margin: 0px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .3px;
+}
+
+
+.menu2 .share i.fa {
+    background-color: #F8F8F8!important;
+    color: #0FBCF9!important;
+}
+.menu2 .submenu li a:hover.telegram i.fa {
+    background-color: #0D86D7!important;
+}
+.menu2 .submenu li a:hover.twitter i.fa {
+    background-color: #55acee!important;
+}
+.menu2 .submenu li a:hover.prmail i.fa {
+    background-color: #5A71B5!important;
+}
+.menu2 .submenu li a:hover.github i.fa {
+    background-color: black!important;
+}
+
+
+
+
+
+
+

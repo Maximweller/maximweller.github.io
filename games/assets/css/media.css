@@ -1,0 +1,54 @@
+/*==========  Desktop First  ==========*/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+    .header-logo-wr {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .save {
+        margin-right: 0px;
+    }
+    .save img {
+        width: 150px;
+    }
+    .save p {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .save {
+        margin-top: 40px;
+    }
+    .save:first-child {
+        margin-top: 0px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+    .header-blog {
+        margin-right: 10px;
+    }
+}
+    
+/* Custom, iPhone Retina 320px */
+@media only screen and (max-width : 330px) {
+    
+}
+
+

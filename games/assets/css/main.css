@@ -1,0 +1,143 @@
+@import url("loader.css");
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+span {
+    line-height: 23px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+    transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -webkit-transition: .2s ease-out;
+}
+
+/*        HEADER         */
+
+.header-wrapper {
+    height: 10vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    border-bottom: 2px solid #4B6698;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header-logo-wr {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    cursor: pointer;
+}
+.header-logo {
+    height: 32px;
+    width: 115px;
+}
+.header-logo-wr span {
+    margin-top: 13px;
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 900;
+    color: #4B6698;
+}
+.header-blog {
+    margin-top: 13px;
+    margin-right: 30px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-size: 16px;
+}
+.header-blog a:hover {
+    text-decoration: none;
+    color: black;
+}
+.header-blog a {
+    text-decoration: none;
+    color: #BCBCBC;
+}
+.header-lang {
+    margin-top: 13px;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.header-lang a {
+    text-decoration: none;
+    color: black;
+}
+.header-lang a:hover {
+    text-decoration: none;
+    color: black;
+}
+.wrap {
+    margin-top: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.save {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.save a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.save a:hover img {
+    -webkit-box-shadow: 2px 2px 30px 6px rgba(50, 50, 50, 0.63);
+    -moz-box-shadow:    2px 2px 30px 6px rgba(50, 50, 50, 0.63);
+    box-shadow:         2px 2px 30px 6px rgba(50, 50, 50, 0.63);
+}
+.save a:hover p {
+    text-decoration: none;
+    color: #4B6698;
+}
+.save img {
+    width: 200px;
+    border-radius: 20px;
+}
+.save p {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.save span {
+    margin-top: 10px;
+    width: 240px;
+}
+
+
+
+
+.footer-rights {
+    margin-bottom: 2vh;
+    float: right;
+    letter-spacing: .7px;
+}
+
+.footer-logo {
+    width: 72px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+
+
+
+

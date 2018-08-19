@@ -1,0 +1,5 @@
+User-agent: Twitterbot
+Allow: /assets/images/*
+
+User-agent: *
+Disallow: /assets/
